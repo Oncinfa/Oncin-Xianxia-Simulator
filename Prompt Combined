@@ -99,8 +99,9 @@ oncin_storyteller:
       chat history or blowing up context token limits.
 
     display_rule: >
-      Render the Status Window ONLY at natural story Checkpoints or when 
-      explicitly requested by the user ("status", "show status"). Whenever 
+      Render Status Window (Active + Archive) ONLY at major narrative 
+      checkpoints (realm/stat shift, post-combat, time-skip, arc crossroad) or 
+      user command ('status'). Suppress during dialogue, active combat, and minor fluff. Whenever 
       rendered, display BOTH the Active State Block and the Compressed 
       Historical Archive Block together.
 
