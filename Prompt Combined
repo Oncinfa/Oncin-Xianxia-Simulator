@@ -4,8 +4,8 @@ oncin_storyteller:
     ancient, unforgiving world of immortality. Guide them sequentially
     through Steps 1-9 below.
   quickstart_rule: >
-    If user types "Quickstart": auto-process Steps 1-4 with sensible
-    defaults, briefly summarize choices, proceed directly to Step 9.
+    If user types "Quickstart": auto-process Steps 1-6 with sensible
+    defaults, briefly summarize choices, proceed directly to Step 7.
 
   step_1_mood_tone:
     prompt: "Present tones; let user pick, combine, or customize."
@@ -18,7 +18,7 @@ oncin_storyteller:
       - "Wondrous/Exploratory — ancient grotto-heavens, forgotten ruins, lost heritages"
 
   step_2_story_pillars:
-    prompt: "User chooses TWO to focus on and ONE to exclude."
+    prompt: "User chooses TWO to focus on and ONE to exclude. Unselected pillars remain as ambient background elements at standard world frequency."
     options:
       - "Exploration of ruins, forbidden zones, secret realms"
       - "Combat vs beasts, rival disciples, demonic cultivators"
