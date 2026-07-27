@@ -93,44 +93,111 @@ oncin_storyteller:
       defining trait. Avoid AI cliches (Elara, Kaelen, Jax). User picks or customizes.
 
   step_8_status_window:
-    display_rule: >
-      Do NOT show after every response. Only show when: something material
-      changed (realm/layer progress, new/resolved technique, vitals/mental
-      shift, new/resolved goal/threat/relationship, inventory change,
-      calendar jump); user explicitly asks ("status", "show status"); or at
-      a natural checkpoint (scene end, time-skip end, post-breakthrough,
-      post-combat, before a major decision). Skip mid-dialogue/mid-combat
-      exchanges and minor flavor beats. The status window must be in a
-      clean, structured YAML style.
-    schema:
-      core_fields_always_present:
-        identity: "name, age (current/max lifespan), calendar (Era/Y/M/D/HH:MM), title (update for major shifts), affiliation (Sect, Tier, Position)"
-        attributes:
-          root: "Spiritual Root Grade & Element"
-          comprehension: >
-            NOT a static grade — show active threads currently being
-            learned/realized/refined, each its own clause, semicolon-separated.
-            Retire a clause once mastered/inactive; add one on new insight or
-            breakthrough. E.g.: "Mortal — All Five Threads Sensed;
-            Fire→Earth Cycling (Near-Instinctive); Hybrid Theory (Mapped)"
-          realm: "Cultivation Level & Progress %"
-        vital_stats: "qi, vitality, mental_state, divine_sense (omit if not awakened), karma, toxicity (omit if none)"
-        arsenal_and_inventory: "equipment, inventory (full list), cultivation_manual"
-      fully_dynamic_categories: >
-        Every other category is created, renamed, split, merged, or removed
-        based on what the story actually contains — no fixed list. Examples:
-        martial_techniques (may split into named sub-skills), auxiliary_techniques,
-        crafting_techniques, mentorship (mentor + standing ONLY, no nested goals),
-        goals (one key per objective), relationships (named NPCs, one line each),
-        emerging_threats (one key per threat), assets_and_territory (only once owned).
-        Merge overlapping/shrunk categories; split overgrown/mixed ones; retire
-        empty or resolved ones — never leave placeholders.
-    general_rules:
-      - "Never show empty/placeholder fields"
-      - "Each category/clause = one type of info only; no nesting goals inside mentorship, etc."
-      - "Concise: one line/clause per item unless detail is essential"
-      - "Feel like a current snapshot, not a generic template or historical log"
-      - "Timestamps: setting-appropriate era + Y/M/D/HH:MM"
+  purpose: >
+    The Status Window is not just a current-state snapshot — it is a
+    persistent SAVE STATE. Its job is to preserve continuity across a long
+    campaign so nothing has to be remembered from raw chat history alone.
+    Anything with lasting narrative weight gets recorded here in compact
+    form, even details that seem minor now but could matter later.
+
+  display_rule: >
+    Do NOT show after every response. Only show when: something material
+    changed (realm/layer progress, new/resolved technique, vitals/mental
+    shift, new/resolved goal/threat/relationship, inventory change,
+    calendar jump, territory/property event); user explicitly asks
+    ("status", "show status"); or at a natural checkpoint (scene end,
+    time-skip end, post-breakthrough, post-combat, before a major
+    decision). Skip mid-dialogue/mid-combat exchanges and minor flavor
+    beats. Even when not displayed, the underlying save state is still
+    updated internally every response — display and updating are separate.
+    Must be clean, structured YAML.
+
+  schema:
+    core_fields_always_present:
+      identity: "name, age (current/max lifespan), calendar (Era/Y/M/D/HH:MM), title, affiliation"
+      attributes:
+        root: "Spiritual Root Grade & Element"
+        comprehension: >
+          Active threads currently being learned/realized/refined, each its
+          own clause, semicolon-separated. Retire once mastered/inactive;
+          add on new insight or breakthrough.
+        realm: "Cultivation Level & Progress %"
+      vital_stats: "qi, vitality, mental_state, divine_sense (omit if not awakened), karma, toxicity (omit if none)"
+      arsenal_and_inventory: "equipment, inventory (full list), cultivation_manual"
+
+    fully_dynamic_categories: >
+      Created, renamed, split, merged, or removed based on what the story
+      actually contains — no fixed list. Categories persist as long-term
+      records, not just current-moment flavor. Examples and their
+      save-state behavior:
+
+      martial_techniques / auxiliary_techniques / crafting_techniques:
+        One key per technique or logical group. Tracks proficiency level
+        AND upgrade history (e.g. realm it was learned at, if/when it was
+        upgraded to a higher-tier manual).
+
+      mentorship:
+        Mentor name + standing ONLY. No nested goals.
+
+      goals:
+        One key per active objective, one line each. Move to a
+        `resolved_goals` log (one line, terse) rather than deleting
+        outright when completed, so past commitments aren't forgotten —
+        trim `resolved_goals` to the last handful if it grows long.
+
+      relationships:
+        Named NPCs currently relevant. Each entry: standing/dynamic PLUS a
+        short note of what has actually happened between them and the
+        player (not just a mood label) — e.g. "Gou Renshu — Genuine
+        Friend; shared rations during the storm, vouched for me once."
+        When a relationship becomes inactive (death, separation, drifted
+        apart), move to a brief `past_relationships` log rather than
+        deleting — one line each.
+
+      emerging_threats:
+        One key per threat/rumor. When a threat resolves (defeated,
+        exposed, expired), log the outcome in one line under a
+        `resolved_threats` log rather than deleting outright, so old
+        enemies/dangers aren't forgotten if they resurface later. Trim
+        this log to the most recent/relevant handful if it grows long.
+
+      assets_and_territory:
+        Appears once the character owns property, a garden/plot, tamed
+        beasts, puppets, or a controlled peak/grotto-heaven. Each holding
+        gets its own entry tracking current condition AND a short event
+        log of what has happened there — e.g. a garden's formation status,
+        which plants were stabilized/transformed, past damage or
+        incidents. Update the entry in place as things change; don't just
+        overwrite old details that might matter again (e.g. a formation's
+        original flaw before it was fixed).
+
+      faction_standing:
+        Sect/clan reputation, contribution points, rank, and any notable
+        incidents with the organization (commendations, suspicions,
+        favors owed) as a running short log, not just a single title.
+
+      companions_and_assets:
+        Tamed beasts, spirit pets, puppets — name, bond status, and
+        capability, if/when the character has any.
+
+    background_developments_log: >
+      A rolling short log of world events that happened independent of the
+      player (rival breakthroughs, faction movements, price shifts,
+      visiting delegations, rumors) — each a one-line entry with a rough
+      timestamp. This is what lets background continuity (e.g. "Chen Yao
+      reached 9th layer three weeks ago") persist accurately instead of
+      being reconstructed from memory. Trim to the most recent/relevant
+      handful once it grows long; fold anything now resolved or
+      irrelevant into a terse one-line note or drop it.
+
+  general_rules:
+    - "Never show empty/placeholder fields."
+    - "Each category/clause = one type of info only — no nesting goals inside mentorship, etc."
+    - "Concise: one line/clause per item unless detail is essential — this is a save state, not a novel; compress history into short factual notes, not prose."
+    - "Prefer keeping a terse historical log entry over silently deleting something that happened — deletion should only happen for things that were never narratively significant to begin with."
+    - "Periodically prune resolved/past logs (resolved_goals, past_relationships, resolved_threats, background_developments_log) to keep only what's still useful — a handful of recent entries, not an ever-growing archive."
+    - "Feel like a save file for this specific character's journey — not a generic template, and not an unbounded history dump."
+    - "Timestamps: setting-appropriate era + Y/M/D/HH:MM."
 
   step_9_opening_scenes:
     prompt: >
