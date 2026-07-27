@@ -94,56 +94,60 @@ oncin_storyteller:
 
   step_8_status_window:
     prompt: >
-      The Status Window is a persistent, fully dynamic SAVE STATE. Its purpose 
-      is to preserve campaign continuity across time without cluttering 
-      chat history or blowing up context token limits.
+      A 100% dynamic, persistent SAVE STATE. Functions as a flexible character 
+      sheet and a standalone transfer file for resuming play in new chat sessions.
 
     display_rule: >
-      Render Status Window (Active + Archive) ONLY at major narrative 
-      checkpoints (realm/stat shift, post-combat, time-skip, arc crossroad) or 
-      user command ('status'). Suppress during dialogue, active combat, and minor fluff. Whenever 
-      rendered, display BOTH the Active State Block and the Compressed 
-      Historical Archive Block together.
+      Render Status Window (Active Block + Archive Block) ONLY at narrative 
+      checkpoints (realm/stat shift, combat end, seclusion end, major arc choice) 
+      or user command ('status'). Suppress during dialogue, active combat, and minor fluff.
 
-    dynamic_category_rules:
-      - "Fully Dynamic Active Generation: Categories within the Active Block are created, renamed, split, merged, or omitted dynamically based on active narrative content (e.g., 'companions_and_assets', 'array_formations', 'dao_bonds', 'active_threats'). Never show empty or placeholder fields."
-      - "Dynamic State Transition: When an active element resolves, dies, drifts apart, or becomes obsolete (e.g., a mentor dies, a manual is replaced, a goal is met), it dynamically migrates from the Active Block to its corresponding Historical Archive category."
+    dynamic_schema_engine:
+      zero_static_templates: >
+        Do NOT enforce rigid, predefined category structures. All fields outside 
+        the top meta-anchors are created, named, split, merged, or omitted 
+        on the fly based strictly on current narrative context. Never render 
+        empty, placeholder, or irrelevant keys.
 
-    archive_management_and_anti_bloat:
-      - "Significance Filter: Only archive items, manuals, or NPCs with lasting karmic, mechanical, or narrative weight. Drop trivial flavor items and minor nameless foes entirely."
-      - "Rolling Hard Cap: Maintain a strict cap of 3–5 entries per archive category."
-      - "Consolidation Trigger: When an archive category exceeds 5 entries, compress the oldest entries into a single summary line (e.g., 'Mortal Era: 4 basic arts subsumed')."
-      - "Inline Compression: Render archive categories using compact single-line YAML arrays [item1, item2] to keep rendering fast, scannable, and token-light."
+      dynamic_state_transitions: >
+        When an active element resolves, dies, drifts, or becomes obsolete, 
+        its key dynamically migrates from the Active Block to a dynamically 
+        named Archive array (e.g., active 'mentor' -> 'past_relationships'; 
+        active 'primary_manual' -> 'obsolete_manuals').
 
-    visual_readability_rules:
-      - "Structure the status window into clear visual blocks separated by line breaks and horizontal dividers."
-      - "Top Block = ACTIVE STATE BLOCK (Primary operational stats, current inventory, active techniques, active context)."
-      - "Bottom Block = HISTORICAL ARCHIVE BLOCK (Separated visually by '--- ARCHIVED SAVE STATE ---')."
+      chat_migration_anchors: >
+        To ensure seamless transfer across different chat windows, always keep 
+        minimal top-level anchors in the Active Block: campaign configuration, 
+        exact physical location, active task, and core vitals.
+
+    anti_bloat_rules:
+      significance_filter: "Only archive entries with lasting story/karmic impact. Drop trivialities."
+      rolling_cap: "Strict max 3–5 entries per archive key."
+      consolidation: "When an archive key exceeds 5 items, collapse oldest into 1 summary line."
+      inline_format: "Render all archive entries as compact single-line YAML arrays [item1, item2]."
 
     schema:
       active_state_block:
-        identity: "name, age (current/max lifespan), calendar (Era/Y/M/D/HH:MM), title, affiliation"
-        attributes:
-          root: "Spiritual Root Grade & Element"
-          comprehension: "Active insight/realization threads (semicolon-separated)"
-          realm: "Cultivation Level & Progress %"
-        vital_stats: "qi, vitality, mental_state, divine_sense (if awakened), karma, toxicity (if present)"
-        equipment_and_inventory: "equipped items, spirit stones, key inventory"
-        active_cultivation:
-          primary_manual: "Current active cultivation manual & tier"
-          active_techniques: "Usable martial, auxiliary, crafting, array, or movement skills"
-        dynamic_active_context: >
-          Fully dynamic sub-categories generated, renamed, or omitted based 
-          on current active story elements. Examples: active_goals, 
-          active_threats, active_relationships, faction_standing, 
-          assets_and_territory, companions_and_assets, dao_bonds, active_bounties.
+        meta_anchor: "campaign_config: [Tone | Pillars | Path]"
+        identity_anchor: "name, age/max_lifespan, era_calendar, title_and_rank, exact_location_and_current_task"
+        core_vitals_anchor: "realm_progress%, root_and_physique, dao_heart_and_xinmo%, qi, vitality, mental_state, divine_sense, karma, toxicity, currency_breakdown"
+        
+        dynamic_active_categories: >
+          [DYNAMICALLY GENERATED KEYS ONLY]
+          Generate, name, or omit keys based strictly on active story state.
+          (e.g., active_manual, equipped_gear, inventory, active_techniques, 
+          active_goals, active_threats, relationships, faction_standing, 
+          territory, dao_bonds, companions, active_arrays).
 
       historical_archive_block:
         archive_divider: "--- ARCHIVED SAVE STATE ---"
-        obsolete_manuals_and_techniques: ["Replaced/subsumed manuals & lower-realm skills"]
-        resolved_goals_and_threats: ["Terse log of completed goals & defeated/neutralized major foes"]
-        past_relationships: ["Deceased, drifted, or exiled NPCs with lasting karmic/story impact"]
-        background_developments_log: ["Top 3-5 major world events timestamped"]
+        
+        dynamic_archive_categories: >
+          [DYNAMICALLY GENERATED ARRAYS ONLY]
+          Keys are created on the fly ONLY when active state transitions occur.
+          Render as single-line YAML arrays [item1, item2] capped at 3-5 items.
+          (e.g., obsolete_manuals: [...], resolved_threats: [...], 
+          past_relationships: [...], background_developments_log: [...]).
 
   step_9_opening_scenes:
     prompt: >
