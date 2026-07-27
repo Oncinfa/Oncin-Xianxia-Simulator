@@ -21,26 +21,35 @@ Keep it dense and reference-only - no prose retelling, just the facts needed to 
 2) PURE TIME-SKIP PROMPT
 (use when you know what you want to do and just want to skip ahead)
 -------------------------------------------------------------------------
-[Time Skip Request] Advance the story forward by [X months/years] of in-world time, starting from the current timestamp. Summarize what happens during this period in a condensed montage (training progress, seclusion outcomes, background faction/world shifts, any pill toxicity or Karmic changes accrued) - 1-2 paragraphs, not a full narrated scene. Then resume normal scene-by-scene play at the new timestamp with an updated Status Window and fresh choices.
+[Time Skip Request] Advance the story forward by [X months/years] of in-world time, starting from the current timestamp. Summarize what happens during this period in a condensed montage (training progress, seclusion outcomes, background faction/world shifts, any pill toxicity or Karmic changes accrued) - 2-4 paragraphs, not a full narrated scene. Then resume normal scene-by-scene play at the new timestamp with an updated Status Window and fresh choices.
 
 
 3) STRATEGIC PAUSE PROMPT (FULL VERSION)
 (use when you're undecided on your next move and want options + fast-forward)
 -------------------------------------------------------------------------
-[Strategic Pause] I'm undecided on my next move. Based on my current Status Window, surroundings, and active plot threads, briefly assess my situation (1 short paragraph). Then propose 3 distinct paths forward, each with:
+[Strategic Pause] I'm undecided on my next move.
+
+Based on my current Status Window, surroundings, and active plot threads, briefly assess my situation (1 short paragraph).
+
+Also run a self-audit — but only if something has actually changed since the last time you ran one (new gear, new technique, realm change, spent/gained resources, etc.). If nothing relevant has changed, just note "no change" instead of re-listing everything:
+- Arsenal/Inventory: check my spirit stone reserves and gear — flag anything worth buying, upgrading, or restocking.
+- Techniques: review my martial/auxiliary/crafting techniques and cultivation manual against my current realm — flag any technique nearing its realm ceiling, any upgradeable technique, and any obvious skillset gap worth addressing.
+
+Then propose 3 distinct paths forward, each with:
 - A one-line summary of the approach
 - Approximate time cost to the next meaningful decision point
 - Main risk and main reward, including expected Qi/Vitality/Mental State/Divine Sense drain, any Pill Toxicity or Karmic change, and any inventory items (pills, herbs, spirit stones, materials) likely to be consumed or gained
+- If the path involves spending or technique advancement, suggest the specific purchase or technique action within my current means, and note the cost (spirit stones and/or time)
 
-Once I pick one, compress the intervening time into a short montage and resume normal play at the new timestamp with a fully updated Status Window reflecting all resource costs, gains, and risks incurred - including specific inventory deductions/additions (item name, quantity, grade) for anything consumed, looted, crafted, or spent during the skipped period.
+Once I pick one, compress the intervening time into a short montage and resume normal play at the new timestamp with a fully updated Status Window reflecting all resource costs, gains, and risks incurred — including specific inventory deductions/additions and any technique upgrades/renames for anything consumed, looted, crafted, bought, learned, or spent during the skipped period.
 
-The world does not pause for me. During the skipped time, roll for background developments independent of my actions - rival disciples advancing, enemies making moves, allies facing their own struggles, sect/faction politics shifting, prices or resource scarcity changing, and any prior threats or debts progressing. Reflect these in the montage and/or as new plot threads upon return, even if they don't directly involve me yet.
+The world does not pause for me. During the skipped time, roll for background developments independent of my actions — rival disciples advancing, enemies making moves, allies facing their own struggles, sect/faction politics shifting, prices or resource scarcity changing, and any prior threats or debts progressing. Reflect these in the montage and/or as new plot threads upon return, even if they don't directly involve me yet.
 
-If a major event would occur during the skip (ambush, tribulation, betrayal, life-altering discovery, or a decision with lasting consequences), stop the montage at that point instead of resolving it automatically - narrate up to it, then hand control back to me with a normal choice list.
+If a major event would occur during the skip (ambush, tribulation, betrayal, life-altering discovery, or a decision with lasting consequences), by default stop the montage at that point and hand control back to me with a normal choice list.
 
-Keep proposed time costs reasonable relative to my current realm/situation - flag if a path requires unusually long isolation.
+Exception — Skippable Scenes: if I've said I don't want to play out a specific type of scene (e.g. "skip fights," "skip this ambush"), do NOT pause for it. Instead, resolve it off-screen using the same odds/logic you'd use if I played it manually, report the outcome in 2-3 sentences, then continue proposing the next set of paths/choices as normal. This applies only to the scene type I've flagged as skippable, not to all major events.
 
-Show Status Window 
+Keep proposed time costs reasonable relative to my current realm/situation — flag if a path requires unusually long isolation.
 
 
 QUICK REFERENCE (once these are established in a chat, you can just say):
