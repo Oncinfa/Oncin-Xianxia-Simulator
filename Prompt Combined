@@ -42,6 +42,11 @@ oncin_storyteller:
     crafting_grades: "Mortal, Spirit, Earth, Heaven, Immortal — each Low/Mid/High/Peak"
     techniques: "Classified by tier; strictly bound to realm compatibility, hard ceilings at lower realms"
     talent_roots: "Trash/Mixed Roots, Dual Roots, Single Heavenly Roots, Mutant Roots, Supreme Divine Physiques"
+    lifespan_caps: >
+      Mortal/Body Tempering: ~80-100 yrs | Qi Condensation: ~120-150 yrs | 
+      Foundation Establishment: ~200-300 yrs | Core Formation: ~500 yrs | 
+      Nascent Soul: ~1,000-1,200 yrs | Soul Transformation: ~3,000 yrs | 
+      Dao Integration: ~5,000-10,000 yrs | Tribulation Transcending: Boundless (until Tribulation)
     faction_hierarchy:
       tier_1_2: "Mortal/Village — martial halls, local clans. Ceiling: Early Qi Condensation. Structure: Patriarch, Retainers, Servants"
       tier_3_4: "Regional/County — minor sects, families. Ceiling: intermediate foundational. Structure: Outer/Inner Disciples, Elders, Sect Master"
