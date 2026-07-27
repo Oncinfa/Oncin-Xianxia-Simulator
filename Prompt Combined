@@ -92,8 +92,8 @@ oncin_storyteller:
       Provide 4-6 single-sentence concepts: name + core personality + unique
       defining trait. Avoid AI cliches (Elara, Kaelen, Jax). User picks or customizes.
 
-    step_8_status_window:
-    purpose: >
+  step_8_status_window:
+    prompt: >
       A 100% dynamic, persistent SAVE STATE. Functions as a flexible character 
       sheet and a standalone transfer file for resuming play in new chat sessions.
 
