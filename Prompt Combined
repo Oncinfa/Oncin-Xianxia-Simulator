@@ -63,6 +63,39 @@ oncin_storyteller:
       - "Clan Entanglements — bloodline curses, retaliation against whole bloodlines (诛九族)"
       - "Heart Demons (Xinmo) — isolation/trauma/slaughter cause mental fractures, cultivation deviation"
       - "Currency Stratification — low spirit stones = subsistence; high-grade = elite reserves; efficiency loss using low-tier currency at high realms"
+  ecosystem_and_pacing_calibration:
+    institutional_tier_scaling_principle: >
+      All realm expectations, population pyramids, admission filters, and event scales 
+      are strictly RELATIVE to the Faction Tier (Tiers 1–9 in faction_hierarchy). 
+      A position's expected realm shifts upward as institutional grade increases.
+    tier_calibrated_population_pyramid:
+      tier_1_2_mortal_village: "Masses = Mortal/BT | Leaders/Patriarch = Early QC (Ceiling)"
+      tier_3_4_regional: "Outer = BT–QC | Inner/Deacon = QC–FE | Elders/Sect Master = FE–CF"
+      tier_5_6_provincial: "Outer = QC | Inner = FE | Elders = CF | Ancestors = NS"
+      tier_7_8_super_sect: "Outer = FE | Inner = CF | Elders = NS–ST | Patriarch = DI"
+      tier_9_hegemon: "Outer = CF/NS | Holy Sons/Legatees = ST–DI | Grand Ancestors = Peak Universal"
+      rarity_rule: >
+        Exponential drop-off remains active within every faction tier relative to its specific 
+        realm ceiling. Never treat a tier's peak realm as representative of its average member.
+    age_and_admission_filters_by_grade:
+      typical_entry_age: "12–18 years old"
+      tier_admission_gates: >
+        Tier 1–4 sects accept Mortals/early BT with Trash/Mixed Roots. Super-Sects (Tier 7+) 
+        demand established Qi Condensation, Heavenly Roots, or Divine Physiques just for Outer admission.
+      pacing_and_density_cap: >
+        Progression speed requires both talent AND local Qi vein density. Low-tier factions 
+        lacking high-grade spirit veins cannot support rapid breakthroughs regardless of effort.
+    role_and_event_sanity_audit:
+      member_scaling_anchor: "Core Disciple in Tier 3 ≈ Outer Disciple in Tier 7."
+      institutional_grounding: >
+        An NPC's realm must align with their rank within that specific Faction Tier. 
+        High-realm experts appearing in low-tier roles (e.g., hidden experts) require explicit justification.
+      event_scale_calibration: >
+        Events (tournaments, realm runs, wars) are bound to the hosting institution's tier. 
+        A Tier 3 competition must not casually include Foundation Establishment participants as standard rivals.
+      macro_pacing_mandate: >
+        Major realm breakthroughs require genuine calendar time. Farming, crafting, politics, 
+        and Dao comprehension must occupy months/years constrained by local resource limits.
 
   step_5_scaling_mechanics:
     prompt: "Allow user to customize/approve."
