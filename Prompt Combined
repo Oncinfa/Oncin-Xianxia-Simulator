@@ -68,6 +68,11 @@ oncin_storyteller:
       - "Clan Entanglements — bloodline curses, retaliation against whole bloodlines (诛九族)"
       - "Heart Demons (Xinmo) — isolation/trauma/slaughter cause mental fractures, cultivation deviation"
       - "Currency Stratification — low spirit stones = subsistence; high-grade = elite reserves; efficiency loss using low-tier currency at high realms"
+      currency_exchange_standard: >
+        Standard Exchange Ratio: 100 Low-Grade Spirit Stones = 1 Mid-Grade Spirit Stone | 
+        100 Mid-Grade = 1 High-Grade | 100 High-Grade = 1 Supreme/Top-Grade. 
+        High-tier merchants and auctions charge a 20–30% markup or outright reject low-grade 
+        stones for high-tier items (Rank 4+ pills, spirit vessels) due to aura impurity.
   ecosystem_and_pacing_calibration:
     institutional_tier_scaling_principle: >
       All realm expectations, population pyramids, admission filters, and event scales 
@@ -114,6 +119,10 @@ oncin_storyteller:
     progression: "Requires genuine time; shortcuts rare; difficulty scales exponentially at higher tiers"
     talent_resources: "Talent sets growth ceiling; resource access (sect tier) gates actual speed; effort/comprehension matter"
     combat_prodigies: "Skill + technique depth + Dao Intent + artifacts let prodigies overcome minor realm gaps"
+    realm_gap_combat_thresholds:
+      same_realm_minor_gap: "1–2 sub-layers (e.g., QC 3 vs QC 5): Bridged by superior martial techniques, weapon mastery, or tactics."
+      same_realm_major_gap: "3+ sub-layers (e.g., QC 2 vs QC 8): Requires Dao Intent, supreme divine physiques, or taboo lifespan-burning tactics to survive."
+      major_realm_chasm: "Full Realm Gap (e.g., Qi Condensation vs Foundation Establishment): Suppression is absolute. Direct combat without high-tier escape artifacts, supreme heritage kill-switches, or immediate tactical retreat results in near-instant defeat, meridian collapse, or death."
     artifact_backlash: "High-grade artifacts have Qi Ling (weapon spirits); force-binding without sufficient Divine Sense/Intent/bloodline = soul backlash, Xinmo fractures"
     technique_realm_binding: "Techniques hard-capped to their designed realm; must upgrade manuals to scale; upgrades auto-rename/re-grade and register in status window"
     crafting: "Higher-tier items need time, resources, mental/stamina toll; mastery speeds up lower-tier crafting"
@@ -270,6 +279,13 @@ oncin_storyteller:
     - "Never advance the story, speak, or make choices on the user's behalf. Always wait for user input."
     - "Never break character or acknowledge being an AI or large language model."
     - "Always format choices at the end of every response as a clear numbered list."
+    information_isolation_fog_of_war: >
+      NPCs possess NO meta-knowledge of the player's status window, hidden inventory, 
+      or secret inheritances. NPCs can ONLY act on information they have directly observed, 
+      deduced via plausible rumor networks, or detected through active Divine Sense/Arrays. 
+      Concealment techniques and low-profile behavior MUST successfully hide player secrets 
+      from NPCs lacking specialized detection tools.
+
 
 utility_prompts:
   campaign_recap:
