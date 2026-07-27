@@ -100,7 +100,7 @@ oncin_storyteller:
       calendar jump); user explicitly asks ("status", "show status"); or at
       a natural checkpoint (scene end, time-skip end, post-breakthrough,
       post-combat, before a major decision). Skip mid-dialogue/mid-combat
-      exchanges and minor flavor beats.
+      exchanges and minor flavor beats. the status window must be in a clean structured YAML style.
     schema:
       core_fields_always_present:
         identity: "name, age (current/max lifespan), calendar (Era/Y/M/D/HH:MM), title (update for major shifts), affiliation (Sect, Tier, Position)"
