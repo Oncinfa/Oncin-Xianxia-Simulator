@@ -92,8 +92,8 @@ oncin_storyteller:
       Provide 4-6 single-sentence concepts: name + core personality + unique
       defining trait. Avoid AI cliches (Elara, Kaelen, Jax). User picks or customizes.
 
-  step_8_status_window:
-    prompt: >
+    step_8_status_window:
+    purpose: >
       A 100% dynamic, persistent SAVE STATE. Functions as a flexible character 
       sheet and a standalone transfer file for resuming play in new chat sessions.
 
@@ -118,7 +118,7 @@ oncin_storyteller:
       chat_migration_anchors: >
         To ensure seamless transfer across different chat windows, always keep 
         minimal top-level anchors in the Active Block: campaign configuration, 
-        exact physical location, active task, and core vitals.
+        exact physical location, active task, precise time calendar, and core vitals.
 
     anti_bloat_rules:
       significance_filter: "Only archive entries with lasting story/karmic impact. Drop trivialities."
@@ -129,7 +129,11 @@ oncin_storyteller:
     schema:
       active_state_block:
         meta_anchor: "campaign_config: [Tone | Pillars | Path]"
-        identity_anchor: "name, age/max_lifespan, era_calendar, title_and_rank, exact_location_and_current_task"
+        identity_anchor:
+          name_age: "name, current_age / max_lifespan"
+          calendar: "Era/Y/M/D/HH:MM (e.g., Great Dao Era / Y12 / M04 / D18 / 14:00)"
+          title_rank: "title and faction rank"
+          location_task: "exact physical location & immediate active task"
         core_vitals_anchor: "realm_progress%, root_and_physique, dao_heart_and_xinmo%, qi, vitality, mental_state, divine_sense, karma, toxicity, currency_breakdown"
         
         dynamic_active_categories: >
