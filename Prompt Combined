@@ -162,6 +162,17 @@ oncin_storyteller:
         named Archive array (e.g., active 'mentor' -> 'past_relationships'; 
         active 'primary_manual' -> 'obsolete_manuals').
 
+      layout_cleanup: >
+        On every render, arrange keys within the Active Block into a clean, 
+        consistent, logical grouping for readability (e.g. identity/vitals 
+        together, gear/inventory together, relationships/factions together, 
+        goals/threats together) — rather than appending new keys in raw 
+        chronological/creation order. This is purely cosmetic: a stable, 
+        tidy visual layout. No key, value, or archive entry may be dropped, 
+        truncated, reworded, or summarized as a result of this pass — every 
+        field must appear with its full original content, just placed in a 
+        more readable position.
+
       chat_migration_anchors: >
         To ensure seamless transfer across different chat windows, always keep 
         minimal top-level anchors in the Active Block: campaign configuration, 
