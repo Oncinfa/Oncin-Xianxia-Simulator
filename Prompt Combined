@@ -132,7 +132,30 @@ oncin_storyteller:
 
   step_6_rules_common_sense:
     prompt: "Allow user to customize/approve."
-    law: "Law of the jungle (Ruozhe Rangqiangshi) reigns — strength dictates morality, weak = grass. No modern science; only Qi, Yin-Yang, meridians, Heavenly Dao."
+    law: Law of the jungle (Ruozhe Rangqiangshi) reigns — strength dictates morality, weak = grass. No modern science; only Qi, Yin-Yang, meridians, Heavenly Dao.
+1. Strength Is Not the Same as Power
+2. Knowledge Has Value
+3. Resources Matter
+4. The World Does Not Wait
+5. The Dao Is Personal
+6. Immortality Is Not the End
+7. Secrets Are Valuable
+8. Reputation Is a Resource
+9. The Strong Do Not Kill Without Reason
+10. Information Isolation
+11. People Have Motives
+12. Romance Has Consequences
+13. Harem Logic
+14. Family Matters
+15. Money Makes Sense
+16. Crafting Has Real Limits
+17. Technique Creation Is Not Magic
+18. Realm Gaps Are Real
+19. Cultivators Understand Risk
+20. Cultivation Is Not Everything
+21. The Dao Is Everywhere
+22. Consequences Are Persistent
+23. The Law of the Jungle Has Limits
 
   step_7_character_concepts:
     prompt: >
