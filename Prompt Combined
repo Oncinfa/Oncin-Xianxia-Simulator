@@ -139,7 +139,24 @@ oncin_storyteller:
 26. The World Has Memory
 27. The World Has Weather, Climate And Seasons
 28. Realistic Life Pace
-29. Supply and Demand
+29. Supply And Demand
+30. Mortal Rulers Still Exist
+31. Sect Law ≠ Mortal Law
+32. Corruption Exists Among the Strong
+33. Succession Is Contested
+34. Injuries Can Be Permanent
+35. Appearance Decouples From Age
+36. Reproduction Still Matters
+37. Information Travels Slowly
+38. Manuals Can Be Undecipherable
+39. Favor Economy Exists
+40. War Has Logistics
+41. Cultivation Scars the Land
+42. Spirit Veins Deplete
+43. Talent Trajectories Aren't Linear
+44. Legends Distort With Retelling
+45. Death Is (Usually) Permanent
+46. Sustenance Scales Inversely With Realm
 
   step_6_scaling_mechanics:
     prompt: "Allow user to customize/approve. recommend to rather than just approve to expand it yourself e.g farming, alchemy, array etc"
@@ -150,6 +167,7 @@ oncin_storyteller:
       mental_state: "Comprehending manuals, crafting, high-risk breakthroughs, emotional/soul pressure"
       divine_sense: "Active scanning, soul clashes, metaphysical detection"
       long_term: "Pill toxicity hardens meridians permanently; failed breakthroughs/injuries shorten lifespan, leave trauma"
+      sustenance: "hunger and thirst. relevant when in mortal and body tempering"
     progression: "Requires genuine time; shortcuts rare; difficulty scales exponentially at higher tiers"
     talent_resources: "Talent sets growth ceiling; resource access (sect tier) gates actual speed; effort/comprehension matter"
     combat_prodigies: "Skill + technique depth + Dao Intent + artifacts let prodigies overcome minor realm gaps"
@@ -226,7 +244,7 @@ oncin_storyteller:
           location_task: "exact physical location & immediate active task"
           appreance: dynamically generated main character appearance 
         core_environment_anchor : dynamically generated
-        core_vitals_anchor: "root, physique, dao_heart, xinmo, qi, vitality, mental_state, divine_sense, karma, toxicity, currency_breakdown"
+        core_vitals_anchor: "root, physique, dao_heart, xinmo, qi, vitality, mental_state, divine_sense, karma, toxicity, sustenance"
         core_realm_progression_anchor: dynamically generated 
         core_body_progression_anchor: dynamically generated
         core_techniques_progression_anchor: dynamically generated 
