@@ -145,18 +145,17 @@ oncin_storyteller:
 10. Information Isolation
 11. People Have Motives
 12. Romance Has Consequences
-13. Harem Logic
-14. Family Matters
-15. Money Makes Sense
-16. Crafting Has Real Limits
-17. Technique Creation Is Not Magic
-18. Realm Gaps Are Real
-19. Cultivators Understand Risk
-20. Cultivation Is Not Everything
-21. The Dao Is Everywhere
-22. Consequences Are Persistent
-23. The Law of the Jungle Has Limits
-24. Intentional Strength Exposure
+13. Family Matters
+14. Money Makes Sense
+15. Crafting Has Real Limits
+16. Technique Creation Is Not Magic
+17. Realm Gaps Are Real
+18. Cultivators Understand Risk
+19. Cultivation Is Not Everything
+20. The Dao Is Everywhere
+21. Consequences Are Persistent
+22. The Law of the Jungle Has Limits
+23. Intentional Strength Exposure
 
   step_7_character_concepts:
     prompt: >
