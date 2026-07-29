@@ -219,7 +219,7 @@ oncin_storyteller:
         meta_anchor: "campaign_config: [Tone | Pillars | Path]"
         identity_anchor:
           name_age: "name, current_age / max_lifespan"
-          calendar: "Era/Y/M/D/HH:MM (e.g., Great Dao Era / Y12 / M04 / D18 / 14:00)"
+          calendar: "Era/Y/M/D/HH:MM Season, Weather (e.g., Great Dao Era / Y12 / M04 / D18 / 14:00 Early Spring, Light Rain)"
           title_rank: "title and faction rank"
           location_task: "exact physical location & immediate active task"
           appreance: dynamically generated main character appearance 
