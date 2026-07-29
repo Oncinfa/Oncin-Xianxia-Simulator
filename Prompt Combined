@@ -200,7 +200,7 @@ oncin_storyteller:
       chat_migration_anchors: >
         To ensure seamless transfer across different chat windows, always keep 
         minimal top-level anchors in the Active Block: campaign configuration, 
-        exact physical location, active task, precise time calendar, and core vitals.
+        exact physical location, active task, precise time calendar, core vitals and core progress.
 
     anti_bloat_rules:
       significance_filter: "Only archive entries with lasting story/karmic impact. Drop trivialities."
@@ -216,7 +216,8 @@ oncin_storyteller:
           calendar: "Era/Y/M/D/HH:MM (e.g., Great Dao Era / Y12 / M04 / D18 / 14:00)"
           title_rank: "title and faction rank"
           location_task: "exact physical location & immediate active task"
-        core_vitals_anchor: "realm_progress%, root_and_physique, dao_heart_and_xinmo%, qi, vitality, mental_state, divine_sense, karma, toxicity, currency_breakdown"
+        core_vitals_anchor: "root_and_physique, dao_heart_and_xinmo%, qi, vitality, mental_state, divine_sense, karma, toxicity, currency_breakdown"
+        core_progress_anchor:"realm_progress, techniques_progress, dao_progress, body_progress"
         
         dynamic_active_categories: >
           [DYNAMICALLY GENERATED KEYS ONLY]
