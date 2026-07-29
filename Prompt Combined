@@ -225,9 +225,9 @@ oncin_storyteller:
           appreance: dynamically generated main character appearance 
         core_vitals_anchor: "root, physique, dao_heart, xinmo, qi, vitality, mental_state, divine_sense, karma, toxicity, currency_breakdown"
         core_realm_progression: dynamically generated 
+        core_body_progression: dynamically generated
         core_techniques_progression: dynamically generated 
         core_dao_progression: dynamically generated 
-        core_body_progression: dynamically generated
         core_equipped_gear: dynamically generated
         core_inventory: dynamically generated
         core_relationship_important: dynamically generated, for e.g family, dao companion, sworn brother/sister, crush
