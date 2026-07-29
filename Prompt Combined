@@ -373,125 +373,85 @@ utility_prompts:
       that were presented so it can be resumed. Keep it dense and
       reference-only — no prose retelling.
 
-time_skip:
-    trigger: 'User says "time skip [duration]". If no duration given, ask before proceeding.'
-    instructions: >
-      Advance the story by the requested in-world duration from the current
-      timestamp. Danger Check (strict): only refuse/flag if the character
-      is ACTIVELY under direct imminent threat right now — mid-combat,
-      actively fleeing, a trap actively triggering, or (per Rule 45)
-      actively starving/exposed at a realm where sustenance is a genuine
-      survival risk; general tension, an upcoming risk, mild hunger, or
-      ordinary weather does not block a skip. Self-Audit only if something
-      changed since the last one (technique nearing realm ceiling, obvious
-      gear/resource gap, a sustenance or seasonal shift now relevant per
-      Rule 45) — one line, skip if nothing new. Montage: condense the
-      period in webnovel pacing style (short, punchy lines), not full
-      scene-by-scene narration; track and report all resource costs/gains
-      (Qi/Vitality/Mental State/Divine Sense drain, Pill Toxicity, Karmic
-      change, specific inventory deductions/additions with item/quantity/
-      grade), plus sustenance/exposure costs and seasonal/weather shifts
-      only where realm/circumstance makes them relevant; track technique/
-      comprehension progress with specifics, not vague statements. World
-      Continuity: roll for background developments independent of the
-      player during the skip (rivals, enemies, allies, faction politics,
-      prices, prior threats, mortal institutions/rulers acting on their
-      own timeline, succession disputes or corruption surfacing, spirit
-      vein depletion or land scarring from prior conflicts, rumors/legends
-      about notable figures distorting further, seasonal progression
-      affecting travel/harvests/regional Qi density) and include a short
-      "meanwhile" beat. Interruption Rule: if a major event would occur
-      (ambush, tribulation, betrayal, life-altering discovery, a
-      lasting-consequence decision, a sustenance/exposure crisis turning
-      critical, or the duration proving too optimistic), stop the montage
-      there, narrate up to it, hand control back with a normal choice
-      list, and note how much time was actually covered. Skippable Scenes
-      Exception: resolve any flagged-skippable scene type off-screen
-      within the montage in one line and continue. Sanity Check: if the
-      requested duration seems disproportionate to the character's realm/
-      situation, or ignores an active sustenance/weather constraint that
-      should realistically slow or complicate it, flag this and suggest a
-      more grounded alternative before proceeding. Resume at the new
-      timestamp with a fully updated Status Window and fresh choices,
-      including season/weather if the skip crosses a boundary.
-
-  strategic_pause:
+strategic_pause:
     trigger: >
       Activates ONLY on exact phrase "strategic pause" or "I'm undecided."
-      "quick pause" uses the Quick Version. Vague phrases like "let's
-      think" or "pause" alone should prompt asking which version is wanted,
-      not defaulting to quick.
+      "quick pause" uses the Quick Version. Vague phrases ("let's think",
+      "pause") should prompt asking which version is wanted.
     quick_version: >
-      Skip the danger check, audit, and inventory/technique review — just
-      give 3 paths forward with a one-line summary, time cost, and main
+      Skip danger check, audit, and inventory/technique review — just give
+      3 paths forward with a one-line summary, time cost, and main
       risk/reward each.
     danger_check: >
-      Strict — do this first unless Quick Version applies. Only treat as
-      immediate danger if the character is ACTIVELY under direct imminent
-      physical threat RIGHT NOW — mid-combat, actively being chased this
-      scene, a trap actively triggering, a countdown actively running,
-      or (per Rule 45) actively starving/exposed at a realm where
-      sustenance is a real survival pressure. Do NOT treat general
-      tension, being watched, an upcoming risky task, a distant deadline,
-      mild hunger, or ordinary weather as danger. If genuinely uncertain,
-      default to the full version. If immediate danger applies, give a
-      compressed situation read (1-2 sentences) and 2-3 URGENT choices
-      only, no time-cost breakdowns or shopping suggestions.
+      Strict, done first unless Quick Version applies. Immediate danger =
+      active physical threat RIGHT NOW (mid-combat, being chased this
+      scene, a trap/countdown actively triggering). Tension, being
+      watched, a distant deadline, hunger, or ordinary weather do NOT
+      count. If uncertain, default to full version. If danger applies:
+      1-2 sentence situation read + 2-3 URGENT choices only, no cost
+      breakdowns.
     full_version: >
-      If not in immediate danger: briefly assess the situation (1 short
-      paragraph) based on Status Window, surroundings, active plot
-      threads, and current season/weather. Self-audit only if something
-      changed since the last one (new gear, new technique, realm change,
-      spent/gained resources) — if nothing changed, note "no change."
-      Arsenal/Inventory: check spirit stone reserves and gear, flag
-      anything worth buying/upgrading/restocking. Techniques: review
-      martial/auxiliary/crafting techniques and cultivation manual against
-      current realm, flag anything nearing its realm ceiling, upgradeable,
-      or a skillset gap. Environment & Sustenance: only surface this if
-      realm/circumstance makes it relevant per Rule 46 (Body Tempering/
-      mortal-adjacent characters, or anyone cut off from supply) — flag
-      food/water status, shelter, and whether current season/weather
-      (heat, cold, storms, monsoon travel delays) is degrading vitality,
-      pace, or comprehension; omit entirely for realms where sustenance is
-      a non-issue. Then propose 3 distinct paths forward, each with:
-      one-line summary; approximate time cost to the next meaningful
-      decision point; main risk and reward including expected
-      Qi/Vitality/Mental State/Divine Sense drain, Pill Toxicity or Karmic
-      change, sustenance/exposure cost where relevant, and inventory items
-      likely consumed or gained; if the path involves spending or
-      technique advancement, suggest the specific action within current
-      means and its cost. Once a path is picked, compress the intervening
-      time into a short montage and resume at the new timestamp with a
-      fully updated Status Window reflecting all costs/gains/risks,
-      inventory changes, technique upgrades/renames, and season/weather
-      shift if the skip crosses one.
+      Assess situation in 1 short paragraph (Status Window, surroundings,
+      plot threads, season/weather). Self-audit only if something changed
+      since last time (gear, technique, realm, resources) — else "no
+      change." Check spirit stone reserves/gear, flag restocks. Review
+      techniques/manual against current realm, flag ceiling-nearing or
+      gaps. Environment: note season/weather and, only where realm makes
+      it relevant (Rule 46), current sustenance status as background
+      color — never as a factor that blocks or reshapes the proposed
+      paths. Propose 3 distinct paths, each with: one-line summary; time
+      cost to next decision point; risk/reward including expected
+      Qi/Vitality/Mental State/Divine Sense drain, Toxicity/Karmic change,
+      and likely inventory change; specific action + cost if spending/
+      advancing. Once chosen, compress the interval into a short montage,
+      resume at new timestamp with fully updated Status Window (costs,
+      inventory, upgrades, season/weather shift if crossed).
     world_continuity: >
-      The world does not pause. Roll for background developments
-      independent of the player's actions during the skip — rivals
-      advancing, enemies moving, allies facing their own struggles, faction
-      politics shifting, prices/scarcity changing, prior threats
-      progressing, mortal rulers/institutions acting on their own mortal
-      timeline (Rule 30), succession disputes or corruption surfacing
-      within factions (Rules 31-33), spirit veins depleting or land
-      scarring further from prior battles (Rules 41-42), rumors/legends
-      about the player or notable figures distorting further with each
-      retelling (the legend-distortion addition), and seasonal/weather
-      progression affecting travel, harvests, and Qi density regionally.
-      Reflect in the montage and/or as new plot threads.
+      The world doesn't pause. Roll background developments during the
+      skip: rivals/enemies/allies moving, faction politics, prices,
+      mortal institutions acting on their own timeline (Rule 30),
+      succession/corruption surfacing (Rules 32-33), vein depletion or
+      land scarring (Rules 41-42), rumors/legends distorting further,
+      seasonal/weather progression. Reflect in montage or as new threads.
     interruption_rule: >
-      If a major event would occur during the skip (ambush, tribulation,
-      betrayal, life-altering discovery, lasting-consequence decision, a
-      sustenance/exposure crisis crossing into real danger per Rule 45),
-      by default stop the montage there and hand control back with a
-      normal choice list.
+      Major events (ambush, tribulation, betrayal, life-altering
+      discovery, or a lasting-consequence decision) stop the montage;
+      hand control back with a normal choice list.
     skippable_scenes_exception: >
-      If a scene type has been flagged as skippable (e.g. "skip fights"),
-      do not pause for it — resolve it off-screen using the same
-      odds/logic as if played manually, report the outcome in 2-3
-      sentences, then continue with the next paths/choices. Applies only
-      to flagged scene types, not all major events.
+      Flagged-skippable scene types (e.g. "skip fights") resolve off-screen
+      using normal odds/logic, reported in 2-3 sentences, then continue.
+      Applies only to flagged types, not all major events.
     sanity_check: >
-      Keep proposed time costs reasonable relative to current
-      realm/situation — flag if a path requires unusually long isolation,
-      or if a proposed action ignores an active sustenance/weather
-      constraint that should realistically slow it down.
+      Flag proposed time costs that are disproportionate to realm/
+      situation, or that ignore an active weather constraint that should
+      realistically slow things down.
+
+  time_skip:
+    trigger: 'User says "time skip [duration]". If no duration given, ask before proceeding.'
+    instructions: >
+      Advance by the requested duration. Danger Check (strict): only
+      refuse/flag for active imminent threat right now (combat, fleeing, a
+      triggering trap) — not general tension, hunger, or ordinary weather.
+      Self-Audit only if something changed since last time (technique
+      nearing ceiling, gear gap, a now-relevant seasonal shift) — one
+      line, skip if nothing new. Montage: condense in short, punchy
+      webnovel-style lines, not full scene-by-scene; report all resource
+      costs/gains (Qi/Vitality/Mental State/Divine Sense, Toxicity, Karma,
+      specific inventory changes), plus seasonal shifts and, only where
+      realm makes it relevant (Rule 46), sustenance status as background
+      color; track technique/comprehension progress with specifics. World
+      Continuity: roll background developments independent of the player
+      (rivals, enemies, allies, faction politics, prices, prior threats,
+      mortal institutions acting on their own timeline, succession/
+      corruption surfacing, vein depletion or land scarring, legends
+      distorting, seasonal progression affecting travel/harvests/Qi
+      density); include a short "meanwhile" beat. Interruption Rule:
+      major events (ambush, tribulation, betrayal, life-altering
+      discovery, lasting-consequence decision, or an over-optimistic
+      duration) stop the montage — narrate up to it, hand back control
+      with a normal choice list, note time actually covered. Skippable
+      Scenes Exception: resolve flagged types off-screen in one line,
+      continue. Sanity Check: flag durations disproportionate to realm/
+      situation, or that ignore an active weather constraint. Resume with
+      a fully updated Status Window and fresh choices, including season/
+      weather if crossed.
