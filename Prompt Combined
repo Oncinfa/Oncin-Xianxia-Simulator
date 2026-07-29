@@ -223,14 +223,15 @@ oncin_storyteller:
           title_rank: "title, faction rank, moniker"
           location_task: "exact physical location & immediate active task"
           appreance: dynamically generated main character appearance 
+        core_environment_anchor : dynamically generated
         core_vitals_anchor: "root, physique, dao_heart, xinmo, qi, vitality, mental_state, divine_sense, karma, toxicity, currency_breakdown"
-        core_realm_progression: dynamically generated 
-        core_body_progression: dynamically generated
-        core_techniques_progression: dynamically generated 
-        core_dao_progression: dynamically generated 
-        core_inventory: dynamically generated
-        core_economic: dynamically generated
-        core_relationship_important: dynamically generated, for e.g family, dao companion, sworn brother/sister, crush
+        core_realm_progression_anchor: dynamically generated 
+        core_body_progression_anchor: dynamically generated
+        core_techniques_progression_anchor: dynamically generated 
+        core_dao_progression_anchor: dynamically generated 
+        core_inventory_anchor: dynamically generated
+        core_economic_anchor: dynamically generated
+        core_relationship_important_anchor: dynamically generated, for e.g family, dao companion, sworn brother/sister, crush
         core_active_goals: dynamically generated
         core_threats: dynamically generated
         
