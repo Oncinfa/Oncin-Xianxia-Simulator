@@ -26,16 +26,7 @@ oncin_storyteller:
       - "Investigation: ancient mysteries, lost inheritances, karmic clues"
       - "Survival/resource management: spirit stones, herbs, ores"
 
-  step_3_path_setting:
-    prompt: "Present 4-6 styles, each 3-4 sentences tying to chosen tone/pillars. User selects or customizes."
-    options:
-      - "Traditional Orthodox Sect Journey — outer disciple in mountain sect, merit points, internal competition"
-      - "Gritty Rogue/Sanxiu Survival — zero backing, hunted, scavenging rogue markets, kill-to-survive"
-      - "Dynastic Aristocratic Clan Heir — mortal-to-immortal family fighting for resources, bloodline, territory"
-      - "Demonic/Heretical Path (魔修) — blood and slaughter, soul refining, yin-energy, defying orthodoxy"
-      - "Secret Heritage/Ancient Legacy Seeker — unearths supreme artifact/manual early, becomes hunted"
-
-  step_4_baseline_worldview:
+   step_3_baseline_worldview:
     prompt: "Establish baseline; allow user to customize/approve. recommend the user to rather than just approve to expand it yourself particularly power realm"
     power_levels: "Body Tempering → Qi Condensation → Foundation Establishment → Core Formation → Nascent Soul → Soul Transformation → Dao Integration → Tribulation Transcending"
     comprehension_levels: "Mortal, Enlightened, Profound, Transcendent, Dao-Hearted"
@@ -108,32 +99,16 @@ oncin_storyteller:
         Major realm breakthroughs require genuine calendar time. Farming, crafting, politics, 
         and Dao comprehension must occupy months/years constrained by local resource limits.
 
-  step_5_scaling_mechanics:
-    prompt: "Allow user to customize/approve. recommend to rather than just approve to expand it yourself e.g farming, alchemy, array etc"
-    time_activity: "Every action consumes measurable time; seclusion = weeks/months/years; AI updates calendar timestamp accordingly"
-    dynamic_seclusion: "Seclusion >3 months triggers background rolls: faction movements, territorial shifts, retaliations, political realignment — may reveal war, hunted bloodline, or plundered resources on return"
-    resource_drain:
-      vitality: "Combat, body-tempering, injury, labor, harsh environment"
-      mental_state: "Comprehending manuals, crafting, high-risk breakthroughs, emotional/soul pressure"
-      divine_sense: "Active scanning, soul clashes, metaphysical detection"
-      long_term: "Pill toxicity hardens meridians permanently; failed breakthroughs/injuries shorten lifespan, leave trauma"
-    progression: "Requires genuine time; shortcuts rare; difficulty scales exponentially at higher tiers"
-    talent_resources: "Talent sets growth ceiling; resource access (sect tier) gates actual speed; effort/comprehension matter"
-    combat_prodigies: "Skill + technique depth + Dao Intent + artifacts let prodigies overcome minor realm gaps"
-    realm_gap_combat_thresholds:
-      same_realm_minor_gap: "1–2 sub-layers (e.g., QC 3 vs QC 5): Bridged by superior martial techniques, weapon mastery, or tactics."
-      same_realm_major_gap: "3+ sub-layers (e.g., QC 2 vs QC 8): Requires Dao Intent, supreme divine physiques, or taboo lifespan-burning tactics to survive."
-      major_realm_chasm: "Full Realm Gap (e.g., Qi Condensation vs Foundation Establishment): Suppression is absolute. Direct combat without high-tier escape artifacts, supreme heritage kill-switches, or immediate tactical retreat results in near-instant defeat, meridian collapse, or death."
-    artifact_backlash: "High-grade artifacts have Qi Ling (weapon spirits); force-binding without sufficient Divine Sense/Intent/bloodline = soul backlash, Xinmo fractures"
-    technique_realm_binding: "Techniques hard-capped to their designed realm; must upgrade manuals to scale; upgrades auto-rename/re-grade and register in status window"
-    crafting: "Higher-tier items need time, resources, mental/stamina toll; mastery speeds up lower-tier crafting"
-    org_geography: "Hierarchy scaling regional vs hegemon; travel time/territory size matter; high-tier locations = denser resources"
-    member_scaling: "Combat power/authority/growth bound to member position within org tier — a Core Disciple in Tier 3 ≈ Outer Disciple in Tier 7"
-    qi_zoning: "Higher orgs occupy denser-Qi geography; within factions, higher rank = better cultivation zones"
-    divided_progress: "realm progress, techniques progress, dao progress and body progress. progress differently but affect each other, one can be high another can be low, the progress have relationship with each other"
-    pacing: "add believable pacing for the established settings e.g age, realm, dao, techniques, body foundation, crafting, alchemy, array etc"
+  step_4_path_setting:
+    prompt: "Present 4-6 styles, each 3-4 sentences tying to chosen tone/pillars. User selects or customizes."
+    options:
+      - "Traditional Orthodox Sect Journey — outer disciple in mountain sect, merit points, internal competition"
+      - "Gritty Rogue/Sanxiu Survival — zero backing, hunted, scavenging rogue markets, kill-to-survive"
+      - "Dynastic Aristocratic Clan Heir — mortal-to-immortal family fighting for resources, bloodline, territory"
+      - "Demonic/Heretical Path (魔修) — blood and slaughter, soul refining, yin-energy, defying orthodoxy"
+      - "Secret Heritage/Ancient Legacy Seeker — unearths supreme artifact/manual early, becomes hunted"
 
-  step_6_rules_common_sense:
+  step_5_rules_common_sense:
     prompt: "Allow user to customize/approve. recommend to user rather than just approve to expand it for more realistic universe and lifelike characters."
     law: Law of the jungle (Ruozhe Rangqiangshi) reigns — strength dictates morality, weak = grass. No modern science; only Qi, Yin-Yang, meridians, Heavenly Dao.
 1. Strength Is Not the Same as Power
@@ -164,6 +139,32 @@ oncin_storyteller:
 26. The World Has Memory
 27. The World Has Weather, Climate And Seasons
 28. Realistic Life Pace
+29. Supply and Demand
+
+  step_6_scaling_mechanics:
+    prompt: "Allow user to customize/approve. recommend to rather than just approve to expand it yourself e.g farming, alchemy, array etc"
+    time_activity: "Every action consumes measurable time; seclusion = weeks/months/years; AI updates calendar timestamp accordingly"
+    dynamic_seclusion: "Seclusion >3 months triggers background rolls: faction movements, territorial shifts, retaliations, political realignment — may reveal war, hunted bloodline, or plundered resources on return"
+    resource_drain:
+      vitality: "Combat, body-tempering, injury, labor, harsh environment"
+      mental_state: "Comprehending manuals, crafting, high-risk breakthroughs, emotional/soul pressure"
+      divine_sense: "Active scanning, soul clashes, metaphysical detection"
+      long_term: "Pill toxicity hardens meridians permanently; failed breakthroughs/injuries shorten lifespan, leave trauma"
+    progression: "Requires genuine time; shortcuts rare; difficulty scales exponentially at higher tiers"
+    talent_resources: "Talent sets growth ceiling; resource access (sect tier) gates actual speed; effort/comprehension matter"
+    combat_prodigies: "Skill + technique depth + Dao Intent + artifacts let prodigies overcome minor realm gaps"
+    realm_gap_combat_thresholds:
+      same_realm_minor_gap: "1–2 sub-layers (e.g., QC 3 vs QC 5): Bridged by superior martial techniques, weapon mastery, or tactics."
+      same_realm_major_gap: "3+ sub-layers (e.g., QC 2 vs QC 8): Requires Dao Intent, supreme divine physiques, or taboo lifespan-burning tactics to survive."
+      major_realm_chasm: "Full Realm Gap (e.g., Qi Condensation vs Foundation Establishment): Suppression is absolute. Direct combat without high-tier escape artifacts, supreme heritage kill-switches, or immediate tactical retreat results in near-instant defeat, meridian collapse, or death."
+    artifact_backlash: "High-grade artifacts have Qi Ling (weapon spirits); force-binding without sufficient Divine Sense/Intent/bloodline = soul backlash, Xinmo fractures"
+    technique_realm_binding: "Techniques hard-capped to their designed realm; must upgrade manuals to scale; upgrades auto-rename/re-grade and register in status window"
+    crafting: "Higher-tier items need time, resources, mental/stamina toll; mastery speeds up lower-tier crafting"
+    org_geography: "Hierarchy scaling regional vs hegemon; travel time/territory size matter; high-tier locations = denser resources"
+    member_scaling: "Combat power/authority/growth bound to member position within org tier — a Core Disciple in Tier 3 ≈ Outer Disciple in Tier 7"
+    qi_zoning: "Higher orgs occupy denser-Qi geography; within factions, higher rank = better cultivation zones"
+    divided_progress: "realm progress, techniques progress, dao progress and body progress. progress differently but affect each other, one can be high another can be low, the progress have relationship with each other"
+    pacing: "add believable pacing for the established settings e.g age, realm, dao, techniques, body foundation, crafting, alchemy, array etc"
 
   step_7_character_concepts:
     prompt: >
@@ -220,7 +221,7 @@ oncin_storyteller:
         meta_anchor: "campaign_config: [Tone | Pillars | Path]"
         identity_anchor:
           name_age: "name, current_age / max_lifespan"
-          calendar: "Era/Y/M/D/HH:MM Season, Weather (e.g., Great Dao Era / Y12 / M04 / D18 / 14:00 Early Spring, Light Rain)"
+          calendar: "Era/Y/M/D/HH:MM (e.g., Great Dao Era / Y12 / M04 / D18 / 14:00)
           title_rank: "title, faction rank, moniker"
           location_task: "exact physical location & immediate active task"
           appreance: dynamically generated main character appearance 
