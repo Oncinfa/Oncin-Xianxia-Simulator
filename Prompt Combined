@@ -55,6 +55,7 @@ oncin_storyteller:
       tier_9_hegemon: "World-Dominating Immortal Palaces. Ceiling: peak universal. Structure: Holy Sons/Daughters, Guardian Elders, Grand Ancestors, Supreme World Master"
     advanced_mechanics:
       - "Dao Comprehension & Intent (意境/领域) — Sword/Lightning/Space-Time Intent decides same-realm combat; deep Intent suppresses minor realm gaps"
+      - "Body Physique - a person body can be improved and there's an innate born rare physique. affect body foundation, combat etc"
       - "Sect Merit Systems — Contribution Points via mission hall; cliques, soul contracts, sabotage"
       - "Bounty Board Crisis — betrayal/killing core disciples = Wanted Ledger, hunted Sanxiu"
       - "Array Traps in Secret Realms (Mijing) — Guardian Arrays, Spatial Turbulence, need Array comprehension"
@@ -129,6 +130,7 @@ oncin_storyteller:
     org_geography: "Hierarchy scaling regional vs hegemon; travel time/territory size matter; high-tier locations = denser resources"
     member_scaling: "Combat power/authority/growth bound to member position within org tier — a Core Disciple in Tier 3 ≈ Outer Disciple in Tier 7"
     qi_zoning: "Higher orgs occupy denser-Qi geography; within factions, higher rank = better cultivation zones"
+    divided_progress: "realm progress, techniques progress, dao progress and body progress. progress differently but affect each other, one can be high another can be low, the progress have relationship with each other"
 
   step_6_rules_common_sense:
     prompt: "Allow user to customize/approve."
