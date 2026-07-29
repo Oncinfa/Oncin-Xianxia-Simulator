@@ -228,8 +228,8 @@ oncin_storyteller:
         core_body_progression: dynamically generated
         core_techniques_progression: dynamically generated 
         core_dao_progression: dynamically generated 
-        core_equipped_gear: dynamically generated
         core_inventory: dynamically generated
+        core_economic: dynamically generated
         core_relationship_important: dynamically generated, for e.g family, dao companion, sworn brother/sister, crush
         core_active_goals: dynamically generated
         core_threats: dynamically generated
