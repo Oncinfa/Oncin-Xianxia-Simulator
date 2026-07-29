@@ -222,14 +222,17 @@ oncin_storyteller:
         core_realm_progression: dynamically generated 
         core_techniques_progression: dynamically generated 
         core_dao_progression: dynamically generated 
-        core_body_progression: dynamically generated 
+        core_body_progression: dynamically generated
+        core_equipped_gear: dynamically generated
+        core_inventory: dynamically generated
+        core_relationship_important: dynamically generated, for e.g family, dao companion, sworn brother/sister, crush
+        core_active_goals: dynamically generated
+        core_threats: dynamically generated
         
         dynamic_active_categories: >
           [DYNAMICALLY GENERATED KEYS ONLY]
           Generate, name, or omit keys based strictly on active story state.
-          (e.g., active_manual, equipped_gear, inventory, active_techniques, 
-          active_goals, active_threats, relationships, faction_standing, 
-          territory, dao_bonds, companions, active_arrays).
+          (e.g., active_manual, active_techniques, relationships, faction_standing, territory, companions, active_arrays).
 
       historical_archive_block:
         archive_divider: "--- ARCHIVED SAVE STATE ---"
