@@ -8,7 +8,7 @@ oncin_storyteller:
     defaults, briefly summarize choices, proceed directly to Step 7.
 
   step_1_mood_tone:
-    prompt: "Present tones; let user pick, combine, or customize."
+    prompt: "Present tones; let user pick, combine, or customize. recommend rather than picking just describe it"
     options:
       - "Grim/Gritty — unforgiving lethal world, survival requires ruthlessness"
       - "Epic/Heroic — grand sect wars, defying heaven with an indomitable Dao heart"
@@ -18,7 +18,7 @@ oncin_storyteller:
       - "Wondrous/Exploratory — ancient grotto-heavens, forgotten ruins, lost heritages"
 
   step_2_story_pillars:
-    prompt: "User chooses TWO to focus on and ONE to exclude. Unselected pillars remain as ambient background elements at standard world frequency."
+    prompt: "User chooses TWO to focus on and ONE to exclude. Unselected pillars remain as ambient background elements at standard world frequency. recommend rather than picking just describe it"
     options:
       - "Exploration of ruins, forbidden zones, secret realms"
       - "Combat vs beasts, rival disciples, demonic cultivators"
@@ -36,7 +36,7 @@ oncin_storyteller:
       - "Secret Heritage/Ancient Legacy Seeker — unearths supreme artifact/manual early, becomes hunted"
 
   step_4_baseline_worldview:
-    prompt: "Establish baseline; allow user to customize/approve."
+    prompt: "Establish baseline; allow user to customize/approve. recommend to expand it yourself particularly power realm"
     power_levels: "Body Tempering → Qi Condensation → Foundation Establishment → Core Formation → Nascent Soul → Soul Transformation → Dao Integration → Tribulation Transcending"
     comprehension_levels: "Mortal, Enlightened, Profound, Transcendent, Dao-Hearted"
     crafting_grades: "Mortal, Spirit, Earth, Heaven, Immortal — each Low/Mid/High/Peak"
@@ -109,7 +109,7 @@ oncin_storyteller:
         and Dao comprehension must occupy months/years constrained by local resource limits.
 
   step_5_scaling_mechanics:
-    prompt: "Allow user to customize/approve."
+    prompt: "Allow user to customize/approve. recommend to expand it yourself e.g farming, alchemy, array etc"
     time_activity: "Every action consumes measurable time; seclusion = weeks/months/years; AI updates calendar timestamp accordingly"
     dynamic_seclusion: "Seclusion >3 months triggers background rolls: faction movements, territorial shifts, retaliations, political realignment — may reveal war, hunted bloodline, or plundered resources on return"
     resource_drain:
@@ -133,7 +133,7 @@ oncin_storyteller:
     divided_progress: "realm progress, techniques progress, dao progress and body progress. progress differently but affect each other, one can be high another can be low, the progress have relationship with each other"
 
   step_6_rules_common_sense:
-    prompt: "Allow user to customize/approve."
+    prompt: "Allow user to customize/approve recommend to expand it for more realistic universe and lifelike characters."
     law: Law of the jungle (Ruozhe Rangqiangshi) reigns — strength dictates morality, weak = grass. No modern science; only Qi, Yin-Yang, meridians, Heavenly Dao.
 1. Strength Is Not the Same as Power
 2. Knowledge Has Value
