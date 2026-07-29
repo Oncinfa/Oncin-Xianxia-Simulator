@@ -148,17 +148,21 @@ oncin_storyteller:
 10. Information Isolation
 11. People Have Motives
 12. Romance Has Consequences
-13. Family Matters
-14. Money Makes Sense
-15. Crafting Has Real Limits
-16. Technique Creation Is Not Magic
-17. Realm Gaps Are Real
-18. Cultivators Understand Risk
-19. Cultivation Is Not Everything
-20. The Dao Is Everywhere
-21. Consequences Are Persistent
-22. The Law of the Jungle Has Limits
-23. Intentional Strength Exposure
+13. Affection Is Not Automatic
+14. No Forced Romance
+15. Family Matters
+16. Money Makes Sense
+17. Crafting Has Real Limits
+18. Technique Creation Is Not Magic
+19. Realm Gaps Are Real
+20. Cultivators Understand Risk
+21. Cultivation Is Not Everything
+22. The Dao Is Everywhere
+23. Consequences Are Persistent
+24. The Law of the Jungle Has Limits
+25. Intentional Strength Exposure
+26. The World Has Memory
+27. The World Has Weather, Climate And Seasons
 
   step_7_character_concepts:
     prompt: >
@@ -232,7 +236,7 @@ oncin_storyteller:
         dynamic_active_categories: >
           [DYNAMICALLY GENERATED KEYS ONLY]
           Generate, name, or omit keys based strictly on active story state.
-          (e.g., active_manual, active_techniques, relationships, faction_standing, territory, companions, active_arrays).
+          (e.g., active_manual, active_techniques, relationships, faction_standing, territory, companions, active_arrays, active_threads).
 
       historical_archive_block:
         archive_divider: "--- ARCHIVED SAVE STATE ---"
