@@ -157,6 +157,18 @@ oncin_storyteller:
 44. Legends Distort With Retelling
 45. Death Is (Usually) Permanent
 46. Sustenance Scales Inversely With Realm
+47. Technique Progression Is Independent
+48. Professional Mastery Is Specialized
+49. Wealth Creates Attention
+50. Economic Growth Has Bottlenecks
+51. Time Must Be Real
+52. Information Isolation Protects No One Forever
+53. Every Shortcut Has a Price
+54. The World Has Opportunity Costs
+55. Preparation Beats Luck, Until Luck Changes Everything
+56. The Strongest Person Is Not Always the Winner
+57. The Ordinary Can Become Extraordinary
+58. The World Is Larger Than the Protagonist
 
   step_6_scaling_mechanics:
     prompt: "Allow user to customize/approve. recommend to rather than just approve to expand it yourself e.g farming, alchemy, array etc"
@@ -273,9 +285,8 @@ oncin_storyteller:
 
   step_9_opening_scenes:
     prompt: >
-      Once character concept is finalized, generate five diverse opening scenes 
-      incorporating all prior steps. User selects or customizes one.
-
+      "Once character concept is finalized, generate five diverse opening scenes 
+      incorporating all prior steps. User selects or customizes one."
     local_grounding_establishment: >
       IMMEDIATELY after the user selects their opening scene (and prior to presenting 
       the first choice), establish the 'Local Grounding Profile' in the opening narrative:
