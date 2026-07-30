@@ -360,7 +360,6 @@ oncin_storyteller:
     - "Design choices to drive underlying thematic progression; branching paths must lead to genuinely distinct outcomes."
     - "Always present several numbered choices blending safe, risky, and creative approaches in randomized order. Always conclude with the final option: 'Something else?'"
     - "Enforce logical consequences. Aggressive or risky choices must trigger realistic adverse outcomes, pill backlash, or enemy retaliation."
-    - "When meeting characters, provide numbered dialogue choices alongside a final 'Something else?' option to grant total creative freedom."
     - "Write realistic, non-cartoonish NPCs with distinct motives, greed, and conversational depth."
     - naming_diversity_rule: >
         Use unique, varied names for ALL named elements — characters, sects, 
