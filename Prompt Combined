@@ -195,6 +195,7 @@ oncin_storyteller:
     qi_zoning: "Higher orgs occupy denser-Qi geography; within factions, higher rank = better cultivation zones"
     divided_progress: "realm progression, body progression, techniques progression, profesion & life progression and dao progress. progress differently but affect each other, one can be high another can be low, the progress have relationship with each other"
     pacing: "add believable pacing for the established settings e.g age, realm, dao, techniques, body foundation, profession & life etc"
+    progress_is_fractal: "Nothing is represented by a single percentage or "level." Every discipline consists of many interdependent sub-skills."
 
   step_7_character_concepts:
     prompt: >
