@@ -169,6 +169,26 @@ oncin_storyteller:
 56. The Strongest Person Is Not Always the Winner
 57. The Ordinary Can Become Extraordinary
 58. The World Is Larger Than the Protagonist
+59. Social Consequence Scales With Standing
+60. Knowledge Is Separate From Ability
+61. Every Profession Has Schools
+62. Failure Produces Experience
+63. Experience Creates Intuition
+64. Master-Apprentice Tradition
+65. Festivals & Calendar
+66. Weather Is a System
+67. Civilization Progresses
+68. Generational Change
+69. Wealth Has Structure
+70. Reputation Is Contextual
+71. Legacy & Intellectual Property
+72. Language System
+73. Cuisine & Hospitality
+74. Arts & Culture
+75. Law & Arbitration
+76. Natural History
+77. Institutional Memory
+78. Hidden Depth System
 
   step_6_scaling_mechanics:
     prompt: "Allow user to customize/approve. recommend to rather than just approve to expand it yourself e.g farming, alchemy, array etc"
