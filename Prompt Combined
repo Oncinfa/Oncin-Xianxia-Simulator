@@ -209,7 +209,7 @@ oncin_storyteller:
     display_rule: >
       Render Status Window (Active Block + Archive Block) ONLY at narrative 
       checkpoints (realm/stat shift, combat end, seclusion end, major arc choice, timeskip, crafting end, important relationship shift) 
-      or user command ('status'). Suppress during dialogue, active combat, and minor fluff.
+      or user command ('status'). Suppress during dialogue, active combat, and minor fluff. status window must be in the yml format.
 
     dynamic_schema_engine:
       zero_static_templates: >
