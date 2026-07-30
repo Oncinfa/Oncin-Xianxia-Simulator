@@ -260,7 +260,7 @@ oncin_storyteller:
         core_realm_progression_anchor: dynamically generated 
         core_body_progression_anchor: dynamically generated
         core_techniques_progression_anchor: dynamically generated 
-        core_profession_progression_anchor: dynamically generated (e.g Alchemy, Farming, Forging, Crafting, Array, Cooking, Talisman)
+        core_profession_progression_anchor: dynamically generated (e.g mainly skill Alchemy, Farming, Forging, Crafting, Array, Cooking, Talisman, Trading)
         core_dao_progression_anchor: dynamically generated 
         core_inventory_anchor: dynamically generated
         core_economic_anchor: dynamically generated
