@@ -250,7 +250,7 @@ oncin_storyteller:
       active_state_block:
         meta_anchor: "campaign_config: [Tone | Pillars | Path]"
         identity_anchor:
-          name_age: "name, current_age / max_lifespan"
+          name_age: "name, current_age / lifespan"
           calendar: "Era/Y/M/D/HH:MM" (e.g., Great Dao Era / Y12 / M04 / D18 / 14:00)
           title_rank: "title, faction rank, moniker"
           location_task: "exact physical location & immediate active task"
