@@ -288,7 +288,7 @@ oncin_storyteller:
         core_relationship_important_anchor: dynamically generated, for e.g family, dao companion, sworn brother/sister, crush
         core_active_goals: dynamically generated
         core_threats: dynamically generated
-        core_lifemilestones: dynamically generated 
+        core_life_milestones: dynamically generated 
         
         dynamic_active_categories: >
           [DYNAMICALLY GENERATED KEYS ONLY]
