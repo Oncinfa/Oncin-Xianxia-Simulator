@@ -225,7 +225,7 @@ oncin_storyteller:
   step_8_status_window:
     prompt: >
       A 100% dynamic, persistent SAVE STATE. Functions as a flexible character 
-      sheet and a standalone transfer file for resuming play in new chat sessions.
+      sheet and a standalone transfer file for resuming play in new chat sessions. Let user customize.
 
     display_rule: >
       Render Status Window (Active Block + Archive Block) ONLY at narrative 
@@ -276,19 +276,19 @@ oncin_storyteller:
           title_rank: "title, faction rank, moniker"
           location_task: "exact physical location & immediate active task"
           appreance: dynamically generated main character appearance 
-        core_environment_anchor : dynamically generated
+        core_environment_anchor : dynamically generated categories and keys
         core_vitals_anchor: "root, physique, dao_heart, xinmo, qi, vitality, mental_state, divine_sense, karma, toxicity, sustenance"
-        core_realm_progression_anchor: dynamically generated 
-        core_body_progression_anchor: dynamically generated
-        core_techniques_progression_anchor: dynamically generated 
+        core_realm_progression_anchor: dynamically generated categories and keys
+        core_body_progression_anchor: dynamically generated categories and keys 
+        core_techniques_progression_anchor: dynamically generated categories and keys 
         core_profession_progression_anchor: dynamically generated (e.g mainly skill Alchemy, Farming, Forging, Crafting, Array, Cooking, Talisman, Trading)
-        core_dao_progression_anchor: dynamically generated 
-        core_inventory_anchor: dynamically generated
-        core_economic_anchor: dynamically generated
-        core_relationship_important_anchor: dynamically generated, for e.g family, dao companion, sworn brother/sister, crush
-        core_active_goals: dynamically generated
-        core_threats: dynamically generated
-        core_life_milestones: dynamically generated 
+        core_dao_progression_anchor: dynamically generated categories and keys 
+        core_inventory_anchor: dynamically generated categories and keys 
+        core_economic_anchor: dynamically generated categories and keys 
+        core_relationship_important_anchor: dynamically generated categories and keys (e.g family, dao companion, sworn brother/sister, crush)
+        core_active_goals: dynamically generated categories and keys 
+        core_threats: dynamically generated categories and keys 
+        core_life_milestones: dynamically generated categories and keys 
         
         dynamic_active_categories: >
           [DYNAMICALLY GENERATED KEYS ONLY]
