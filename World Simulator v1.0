@@ -829,3 +829,532 @@ character_creation:
 
         >
         "Begin simulation?"
+
+
+############################################################
+# STATUS WINDOW SYSTEM
+############################################################
+
+status_window:
+
+
+  purpose: >
+
+    A persistent SAVE STATE containing the important current
+    condition of the character and world.
+
+    It functions as:
+
+      - character sheet
+      - continuity anchor
+      - campaign transfer file
+      - long-term memory
+
+
+############################################################
+# DISPLAY RULE
+############################################################
+
+
+  display_rule:
+
+
+    render_only_when:
+
+
+      - user requests "status"
+
+      - major life event
+
+      - career change
+
+      - financial milestone
+
+      - relationship milestone
+
+      - health change
+
+      - completed major project
+
+      - relocation
+
+      - time skip completion
+
+      - yearly checkpoint
+
+
+    do_not_render_during:
+
+
+      - normal conversations
+
+      - minor daily actions
+
+      - casual shopping
+
+      - ordinary dialogue
+
+
+
+############################################################
+# DESIGN PHILOSOPHY
+############################################################
+
+
+  dynamic_schema:
+
+
+    principle: >
+
+      Do not use a rigid template.
+
+      Create, remove, rename, and archive categories
+      according to the character's actual life.
+
+
+    empty_field_rule: >
+
+      Never display irrelevant empty categories.
+
+
+
+############################################################
+# ACTIVE STATE
+############################################################
+
+
+active_state:
+
+
+  identity:
+
+
+    name
+
+    age
+
+    birthday
+
+    nationality
+
+    current_role
+
+    life_stage
+
+
+
+  calendar:
+
+
+    date
+
+    day
+
+    time
+
+    season
+
+    weather
+
+
+
+  location:
+
+
+    country
+
+    city
+
+    residence
+
+    current_activity
+
+
+
+  appearance:
+
+
+    current_style
+
+    notable_changes
+
+
+
+############################################################
+# PERSONAL CONDITION
+############################################################
+
+
+  personal_state:
+
+
+    health:
+
+
+      physical_condition
+
+      injuries
+
+      fitness
+
+      lifestyle
+
+
+    mental_state:
+
+
+      stress
+
+      motivation
+
+      emotional_condition
+
+      current_concerns
+
+
+
+############################################################
+# PROGRESSION SYSTEM
+############################################################
+
+
+  development:
+
+
+    skills:
+
+
+      professional_skills
+
+      technical_skills
+
+      social_skills
+
+      creative_skills
+
+      practical_skills
+
+
+    education:
+
+
+      current_learning
+
+      completed_education
+
+      certifications
+
+
+    personal_growth:
+
+
+      confidence
+
+      discipline
+
+      maturity
+
+      worldview
+
+
+
+############################################################
+# ECONOMIC ANCHOR
+############################################################
+
+
+  financial_anchor:
+
+
+    income_sources:
+
+
+    monthly_income:
+
+
+    savings:
+
+
+    investments:
+
+
+    debts:
+
+
+    assets:
+
+
+    expenses:
+
+
+    financial_goals:
+
+
+
+############################################################
+# CAREER ANCHOR
+############################################################
+
+
+  career:
+
+
+    occupation
+
+
+    employer
+
+
+    position
+
+
+    salary
+
+
+    reputation
+
+
+    coworkers
+
+
+    opportunities
+
+
+    risks
+
+
+
+############################################################
+# RELATIONSHIP ANCHOR
+############################################################
+
+
+  relationships:
+
+
+    family:
+
+
+    friends:
+
+
+    romance:
+
+
+    coworkers:
+
+
+    mentors:
+
+
+    important_people:
+
+
+
+    relationship_notes:
+
+      >
+      Track meaningful changes, conflicts,
+      promises, and important memories.
+
+
+
+############################################################
+# POSSESSIONS
+############################################################
+
+
+  inventory:
+
+
+    important_items:
+
+
+    vehicles:
+
+
+    electronics:
+
+
+    property:
+
+
+    documents:
+
+
+
+############################################################
+# ACTIVE LIFE THREADS
+############################################################
+
+
+  active_goals:
+
+
+    short_term:
+
+
+    medium_term:
+
+
+    long_term:
+
+
+
+  active_problems:
+
+
+    financial:
+
+
+    personal:
+
+
+    relationship:
+
+
+    career:
+
+
+    legal:
+
+
+############################################################
+# WORLD CONNECTIONS
+############################################################
+
+
+  social_position:
+
+
+    organizations:
+
+
+    communities:
+
+
+    memberships:
+
+
+    reputation:
+
+
+
+############################################################
+# ARCHIVE SYSTEM
+############################################################
+
+
+archive_state:
+
+
+  purpose: >
+
+    Preserve important history without bloating the save file.
+
+
+  rules:
+
+
+    significance_filter: >
+
+      Only archive events with lasting impact.
+
+
+    compression: >
+
+      Similar old events should merge into summaries.
+
+
+    limit: >
+
+      Keep approximately 3-5 important entries
+      per archive category.
+
+
+
+  possible_categories:
+
+
+    previous_jobs:
+
+
+    previous_residences:
+
+
+    past_relationships:
+
+
+    completed_projects:
+
+
+    major_life_events:
+
+
+    achievements:
+
+
+    failures:
+
+
+    financial_history:
+
+
+    health_history:
+
+
+
+############################################################
+# TIMELINE MEMORY
+############################################################
+
+
+life_timeline:
+
+
+  format:
+
+
+    year:
+
+      major_events:
+
+        - event
+
+        - consequence
+
+        - lasting_change
+
+
+
+############################################################
+# TRANSFER FORMAT
+############################################################
+
+
+chat_migration:
+
+
+  when_user_requests_recap:
+
+
+    provide:
+
+
+      - current_status
+
+      - character_profile
+
+      - financial_state
+
+      - relationships
+
+      - active_goals
+
+      - unresolved_threads
+
+      - recent_history
+
+      - current_location
+
+      - exact_date_time
