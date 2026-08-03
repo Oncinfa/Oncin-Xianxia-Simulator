@@ -1596,3 +1596,385 @@ step_6_progression_engine:
     Failure provides experience.
 
     Experience improves future decision making.
+
+############################################################
+######################## STEP 7 #############################
+############################################################
+
+step_7_human_generation:
+
+  prompt: >
+    Generate a psychologically believable human being.
+    Encourage the player to customize every section.
+    Nothing should be randomly exaggerated merely to create drama.
+    Ordinary people are welcome.
+
+############################################################
+
+identity:
+
+  full_name
+
+  preferred_name
+
+  age
+
+  sex
+
+  nationality
+
+  ethnicity
+
+  languages
+
+  religion_or_beliefs
+
+############################################################
+
+appearance:
+
+  height
+
+  weight
+
+  body_type
+
+  skin_tone
+
+  eye_color
+
+  hair
+
+  facial_features
+
+  clothing_style
+
+  posture
+
+  distinguishing_features
+
+############################################################
+
+living_conditions:
+
+  current_home
+
+  ownership
+
+  roommates
+
+  family_members
+
+  pets
+
+  neighborhood
+
+  commute
+
+############################################################
+
+education:
+
+  highest_level
+
+  schools
+
+  certifications
+
+  GPA_if_relevant
+
+  achievements
+
+  failures
+
+############################################################
+
+employment:
+
+  occupation
+
+  employer
+
+  salary
+
+  schedule
+
+  coworkers
+
+  manager
+
+  job_satisfaction
+
+############################################################
+
+financial_profile:
+
+  checking_account
+
+  savings
+
+  investments
+
+  retirement
+
+  debts
+
+  monthly_expenses
+
+  subscriptions
+
+  insurance
+
+  credit_score
+
+############################################################
+
+health:
+
+  physical_health
+
+  chronic_conditions
+
+  allergies
+
+  medications
+
+  injuries
+
+  sleep_pattern
+
+  exercise
+
+  nutrition
+
+  vision
+
+  dental_health
+
+############################################################
+
+mental_health:
+
+  stress
+
+  confidence
+
+  anxiety
+
+  emotional_regulation
+
+  resilience
+
+  motivation
+
+  burnout
+
+############################################################
+
+personality:
+
+  use_big_five_model:
+
+    openness
+
+    conscientiousness
+
+    extraversion
+
+    agreeableness
+
+    neuroticism
+
+############################################################
+
+habits:
+
+  wake_up_time
+
+  bedtime
+
+  coffee
+
+  alcohol
+
+  smoking
+
+  reading
+
+  gaming
+
+  social_media
+
+  hobbies
+
+############################################################
+
+values:
+
+  family
+
+  career
+
+  money
+
+  freedom
+
+  stability
+
+  creativity
+
+  prestige
+
+  kindness
+
+  competition
+
+############################################################
+
+fears:
+
+  financial_failure
+
+  loneliness
+
+  rejection
+
+  public_failure
+
+  illness
+
+  losing_family
+
+  losing_purpose
+
+############################################################
+
+motivations:
+
+  short_term
+
+  medium_term
+
+  long_term
+
+############################################################
+
+relationships:
+
+  parents
+
+  siblings
+
+  relatives
+
+  friends
+
+  coworkers
+
+  neighbors
+
+  romantic_partner
+
+  ex_partners
+
+  mentors
+
+  rivals
+
+############################################################
+
+social_circle:
+
+  closest_friend
+
+  trusted_people
+
+  acquaintances
+
+  online_friends
+
+############################################################
+
+skills:
+
+  professional
+
+  technical
+
+  practical
+
+  creative
+
+  communication
+
+  athletic
+
+  household
+
+############################################################
+
+digital_life:
+
+  email
+
+  messaging
+
+  social_media
+
+  online_reputation
+
+  digital_footprint
+
+############################################################
+
+daily_routine:
+
+  weekday_schedule
+
+  weekend_schedule
+
+############################################################
+
+life_history:
+
+  childhood
+
+  adolescence
+
+  early_adulthood
+
+  major_life_events
+
+############################################################
+
+current_goals:
+
+  immediate
+
+  yearly
+
+  lifetime
+
+############################################################
+
+hidden_complexity:
+
+  Every generated character should contain:
+
+    contradictions
+
+    strengths
+
+    weaknesses
+
+    insecurities
+
+    blind_spots
+
+    unrealized_potential
+
+    coping_mechanisms
+
+    regrets
+
+    dreams
