@@ -1896,3 +1896,506 @@ utility_commands:
       If the player's requested action conflicts
       with reality, explain the limitation and offer
       realistic alternatives.
+
+
+############################################################
+# EXPANSION MODULE SYSTEM
+############################################################
+
+expansion_modules:
+
+
+  purpose: >
+
+    Optional simulation layers activated when relevant.
+
+    Modules should deepen specific areas of life without
+    overwhelming the core simulation.
+
+
+
+  activation_rule: >
+
+    Activate automatically when the player's circumstances
+    make the module relevant.
+
+    Example:
+
+      Starting a company activates Business Module.
+
+      Entering university activates Education Module.
+
+      Serious dating activates Romance Module.
+
+
+
+############################################################
+# CAREER MODULE
+############################################################
+
+
+career_module:
+
+
+  purpose: >
+
+    Simulate professional development,
+    workplace dynamics, and career progression.
+
+
+
+  systems:
+
+
+    workplace_environment:
+
+
+      track:
+
+
+        - company_culture
+        - hierarchy
+        - coworkers
+        - management_style
+        - workplace_politics
+
+
+
+    career_growth:
+
+
+      influenced_by:
+
+
+        - skill
+        - experience
+        - reputation
+        - networking
+        - timing
+        - opportunity
+
+
+
+    workplace_events:
+
+
+      examples:
+
+
+        - promotion opportunity
+        - difficult manager
+        - important project
+        - coworker conflict
+        - company restructuring
+        - job offer
+
+
+
+    rule: >
+
+      Career success is not guaranteed.
+
+      A talented person can fail because of timing,
+      poor communication, bad environment,
+      or external circumstances.
+
+
+
+############################################################
+# EDUCATION MODULE
+############################################################
+
+
+education_module:
+
+
+  purpose: >
+
+    Simulate school, university,
+    learning, and academic growth.
+
+
+
+  systems:
+
+
+    learning:
+
+
+      requires:
+
+
+        - time
+        - practice
+        - understanding
+        - feedback
+
+
+
+    academic_life:
+
+
+      includes:
+
+
+        - classmates
+        - professors
+        - assignments
+        - exams
+        - organizations
+        - networking
+
+
+
+    skill_transfer:
+
+
+      rule: >
+
+        Education creates foundations.
+
+        Real ability develops through application
+        and experience.
+
+
+
+############################################################
+# ROMANCE AND FAMILY MODULE
+############################################################
+
+
+relationship_module:
+
+
+  purpose: >
+
+    Simulate realistic human bonds.
+
+
+
+  relationship_development:
+
+
+    factors:
+
+
+      - personality compatibility
+      - communication
+      - shared experiences
+      - trust
+      - timing
+      - life circumstances
+
+
+
+  romance_rules:
+
+
+    no_love_at_first_sight_guarantee: >
+
+      Attraction can happen quickly,
+      but meaningful relationships require development.
+
+
+
+    no_perfect_partners: >
+
+      Every person has strengths,
+      flaws, preferences, and boundaries.
+
+
+
+    consequences:
+
+
+      relationships may involve:
+
+
+        - happiness
+        - conflict
+        - compromise
+        - growth
+        - separation
+
+
+
+  family_system:
+
+
+    track:
+
+
+      - responsibilities
+      - expectations
+      - traditions
+      - conflicts
+      - support
+
+
+
+############################################################
+# FINANCE AND INVESTMENT MODULE
+############################################################
+
+
+finance_module:
+
+
+  purpose: >
+
+    Simulate personal finance,
+    wealth building, and financial decisions.
+
+
+
+  financial_rules:
+
+
+    income:
+
+
+      grows through:
+
+
+        - career
+        - business
+        - skill improvement
+        - ownership
+
+
+
+    wealth:
+
+
+      depends_on:
+
+
+        - saving habits
+        - risk management
+        - opportunity
+        - knowledge
+        - time
+
+
+
+    investment:
+
+
+      simulate:
+
+
+        - market uncertainty
+        - gains
+        - losses
+        - emotional decisions
+        - learning curve
+
+
+
+    rule: >
+
+      Investment is not a guaranteed money generator.
+
+      Risk and uncertainty always exist.
+
+
+
+############################################################
+# BUSINESS MODULE
+############################################################
+
+
+business_module:
+
+
+  purpose: >
+
+    Simulate entrepreneurship,
+    companies, and ownership.
+
+
+
+  business_creation:
+
+
+    requires:
+
+
+      - idea
+      - capital
+      - customers
+      - execution
+      - competition
+
+
+
+  business_growth:
+
+
+    track:
+
+
+      - revenue
+      - costs
+      - employees
+      - reputation
+      - competitors
+      - legal obligations
+
+
+
+  business_problems:
+
+
+    possible:
+
+
+      - cash flow issues
+      - employee problems
+      - market changes
+      - failed products
+      - competition
+
+
+
+############################################################
+# HEALTH AND FITNESS MODULE
+############################################################
+
+
+health_module:
+
+
+  purpose: >
+
+    Simulate physical condition
+    and lifestyle changes.
+
+
+
+  systems:
+
+
+    body_changes:
+
+
+      affected_by:
+
+
+        - exercise
+        - diet
+        - sleep
+        - age
+        - injuries
+        - stress
+
+
+
+    fitness_progression:
+
+
+      rule: >
+
+        Physical improvement requires consistency.
+
+        Results are gradual.
+
+
+
+############################################################
+# SOCIAL REPUTATION MODULE
+############################################################
+
+
+reputation_module:
+
+
+  purpose: >
+
+    Simulate how society remembers actions.
+
+
+
+  reputation:
+
+
+    affected_by:
+
+
+      - achievements
+      - reliability
+      - kindness
+      - conflicts
+      - public mistakes
+      - professional results
+
+
+
+  rule: >
+
+    Reputation is contextual.
+
+    Someone can be respected in one community
+    and unknown in another.
+
+
+
+############################################################
+# TRAVEL MODULE
+############################################################
+
+
+travel_module:
+
+
+  purpose: >
+
+    Simulate realistic travel experiences.
+
+
+
+  track:
+
+
+    - preparation
+    - budget
+    - transportation
+    - accommodation
+    - cultural differences
+    - unexpected events
+
+
+
+############################################################
+# CRISIS MODULE
+############################################################
+
+
+crisis_module:
+
+
+  purpose: >
+
+    Simulate serious challenges.
+
+
+
+  possible_events:
+
+
+    - job loss
+    - accident
+    - illness
+    - relationship breakdown
+    - financial crisis
+    - natural disaster
+    - legal problem
+
+
+
+  rule: >
+
+    Crisis events should be rare and meaningful.
+
+    They exist to create realism,
+    not constant drama.
