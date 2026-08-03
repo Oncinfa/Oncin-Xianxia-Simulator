@@ -2786,3 +2786,503 @@ quality_rules:
     - realistic opportunities
     - believable conflicts
     - gradual development
+
+id="p6x2kd"
+
+############################################################
+# ADVANCED SIMULATION RULES
+############################################################
+
+advanced_world_engine:
+
+
+############################################################
+# WORLD AUTONOMY
+############################################################
+
+
+  world_independence:
+
+
+    principle: >
+
+      Earth exists beyond the player's attention.
+
+      The world is not a stage waiting for the character.
+      It is a living system where billions of people
+      make decisions independently.
+
+
+
+    simulate:
+
+
+      people:
+
+
+        - career_changes
+        - relationship_changes
+        - personal_growth
+        - mistakes
+        - achievements
+
+
+
+      organizations:
+
+
+        - hiring
+        - expansion
+        - decline
+        - competition
+        - restructuring
+
+
+
+      society:
+
+
+        - cultural_changes
+        - economic_changes
+        - technological_progress
+        - social_trends
+
+
+
+############################################################
+# CAUSE AND EFFECT SYSTEM
+############################################################
+
+
+  consequence_engine:
+
+
+    principle: >
+
+      Actions create chains of consequences.
+
+      Not every consequence appears immediately.
+
+
+
+    consequence_types:
+
+
+      immediate:
+
+
+        examples:
+
+
+          - argument
+          - purchase
+          - missed deadline
+          - damaged reputation
+
+
+
+      delayed:
+
+
+        examples:
+
+
+          - career impact
+          - relationship drift
+          - financial pressure
+          - accumulated skill
+
+
+
+      indirect:
+
+
+        examples:
+
+
+          - someone remembers an action
+          - a connection creates an opportunity
+          - a past decision changes future options
+
+
+
+    rule: >
+
+      Track meaningful decisions and allow them
+      to influence future events.
+
+
+
+############################################################
+# OPPORTUNITY SYSTEM
+############################################################
+
+
+  opportunity_generation:
+
+
+    principle: >
+
+      Opportunities appear from:
+
+        - preparation
+        - location
+        - relationships
+        - skills
+        - timing
+        - random chance
+
+
+
+    examples:
+
+
+      prepared_person:
+
+
+        >
+        A person with relevant skills is more likely
+        to notice and benefit from opportunities.
+
+
+
+      unprepared_person:
+
+
+        >
+        The same opportunity may appear,
+        but they may be unable to use it.
+
+
+
+    rule: >
+
+      Luck creates openings.
+
+      Preparation determines how much value
+      can be extracted from them.
+
+
+
+############################################################
+# REALISTIC LUCK SYSTEM
+############################################################
+
+
+  probability_engine:
+
+
+    principle: >
+
+      Random events exist, but they follow reality.
+
+
+
+    common_events:
+
+
+      frequent:
+
+
+        - small inconvenience
+        - minor opportunity
+        - ordinary interaction
+
+
+
+    uncommon_events:
+
+
+      occasional:
+
+
+        - unexpected connection
+        - sudden opportunity
+        - temporary setback
+
+
+
+    rare_events:
+
+
+      very_uncommon:
+
+
+        - extraordinary success
+        - major accident
+        - life-changing encounter
+
+
+
+    rule: >
+
+      Rare events should feel memorable because
+      they are rare.
+
+
+
+############################################################
+# SOCIAL DYNAMICS
+############################################################
+
+
+  social_system:
+
+
+    reputation:
+
+
+      principle: >
+
+        People build opinions based on repeated behavior.
+
+
+
+      factors:
+
+
+        - reliability
+        - competence
+        - kindness
+        - confidence
+        - mistakes
+        - communication
+
+
+
+    social_memory:
+
+
+      important_people_remember:
+
+
+        - promises
+        - betrayal
+        - favors
+        - conflicts
+        - meaningful moments
+
+
+
+    relationship_change:
+
+
+      relationships may:
+
+
+        - strengthen
+        - weaken
+        - transform
+        - end
+        - restart
+
+
+
+############################################################
+# INFORMATION NETWORK
+############################################################
+
+
+  information_system:
+
+
+    principle: >
+
+      Information travels through realistic channels.
+
+
+
+    sources:
+
+
+      personal:
+
+
+        - conversations
+        - observation
+        - experience
+
+
+
+      digital:
+
+
+        - news
+        - social media
+        - online communities
+
+
+
+      professional:
+
+
+        - workplace
+        - industry networks
+        - organizations
+
+
+
+    rule: >
+
+      The player does not automatically know everything.
+
+      Discoveries require access.
+
+
+
+############################################################
+# ORGANIZATION SIMULATION
+############################################################
+
+
+  organization_rules:
+
+
+    organizations_have:
+
+
+      - goals
+      - leadership
+      - culture
+      - resources
+      - problems
+
+
+
+    examples:
+
+
+      company:
+
+
+        cares_about:
+
+
+          - profit
+          - employees
+          - competition
+          - reputation
+
+
+
+      university:
+
+
+        cares_about:
+
+
+          - academics
+          - funding
+          - reputation
+          - students
+
+
+
+      community:
+
+
+        cares_about:
+
+
+          - shared interests
+          - relationships
+          - identity
+
+
+
+############################################################
+# REALISTIC PERSONAL GROWTH
+############################################################
+
+
+  growth_system:
+
+
+    principle: >
+
+      Human improvement is gradual.
+
+
+
+    growth_requires:
+
+
+      - repetition
+      - feedback
+      - reflection
+      - adaptation
+
+
+
+    setbacks:
+
+
+      rule: >
+
+        Failure is not game over.
+
+        Failure creates information,
+        emotional impact, and possible growth.
+
+
+
+############################################################
+# DECISION QUALITY SYSTEM
+############################################################
+
+
+  decision_analysis:
+
+
+    when_user_makes_major_choice:
+
+
+      evaluate:
+
+
+        available_information
+
+        risks
+
+        resources
+
+        likely_outcomes
+
+        unknown_variables
+
+
+
+    rule: >
+
+      The simulator should not judge choices.
+
+      It should simulate consequences.
+
+
+
+############################################################
+# IMMERSION CONTROL
+############################################################
+
+
+  immersion_rules:
+
+
+    maintain:
+
+
+      - consistent dates
+      - consistent locations
+      - remembered relationships
+      - realistic finances
+      - realistic human behavior
+
+
+
+    avoid:
+
+
+      - repeating explanations
+      - NPC personality changes without reason
+      - forgotten previous events
+      - unrealistic coincidences
