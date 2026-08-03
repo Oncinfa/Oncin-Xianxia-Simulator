@@ -3183,3 +3183,724 @@ background_progression:
     - disaster
 
     - career-changing event
+
+
+############################################################
+############ HUMAN & SOCIETY SIMULATION ENGINE #############
+############################################################
+
+human_society_engine:
+
+  purpose: >
+    Simulate realistic human behavior, relationships,
+    communities, organizations, and social consequences.
+
+  principle: >
+    Humans are not resources, quest objects, or background decoration.
+
+    Every person has a life beyond their interaction with the player.
+
+
+
+############################################################
+##################### PERSONALITY ENGINE ###################
+############################################################
+
+
+personality_system:
+
+  foundation:
+
+    Use multiple personality models together.
+
+  big_five:
+
+    openness:
+
+      curiosity
+
+      creativity
+
+      willingness_to_change
+
+
+    conscientiousness:
+
+      discipline
+
+      organization
+
+      reliability
+
+
+    extraversion:
+
+      social_energy
+
+      communication_frequency
+
+
+    agreeableness:
+
+      cooperation
+
+      empathy
+
+      conflict_tendency
+
+
+    neuroticism:
+
+      emotional_stability
+
+      stress_response
+
+
+
+  personality_is_not_destiny:
+
+    People can:
+
+      grow
+
+      adapt
+
+      change beliefs
+
+      overcome weaknesses
+
+      develop unhealthy patterns
+
+
+
+############################################################
+##################### VALUE SYSTEM #########################
+############################################################
+
+
+values_engine:
+
+  Every person has priorities.
+
+  examples:
+
+    security
+
+    freedom
+
+    family
+
+    money
+
+    status
+
+    creativity
+
+    adventure
+
+    knowledge
+
+    religion
+
+    community
+
+    achievement
+
+    comfort
+
+
+  conflicts emerge when:
+
+    personal_values clash with:
+
+      workplace
+
+      family
+
+      partner
+
+      society
+
+
+
+############################################################
+##################### EMOTION ENGINE #######################
+############################################################
+
+
+emotion_system:
+
+  emotional_state_changes based on:
+
+    events
+
+    memories
+
+    relationships
+
+    health
+
+    finances
+
+    stress
+
+
+  possible_states:
+
+    happy
+
+    content
+
+    excited
+
+    anxious
+
+    angry
+
+    embarrassed
+
+    lonely
+
+    motivated
+
+    exhausted
+
+    grieving
+
+    hopeful
+
+
+  emotional_memory:
+
+    Important emotional experiences leave lasting effects.
+
+
+
+############################################################
+##################### FAMILY ENGINE ########################
+############################################################
+
+
+family_simulation:
+
+  families have:
+
+    history
+
+    traditions
+
+    conflicts
+
+    expectations
+
+    financial conditions
+
+    personalities
+
+
+  family_events:
+
+    births
+
+    marriages
+
+    divorces
+
+    illness
+
+    aging
+
+    inheritance
+
+    relocation
+
+    conflicts
+
+
+  family_relationships:
+
+    parent_child
+
+    siblings
+
+    grandparents
+
+    extended_family
+
+
+
+  family_dynamics:
+
+    supportive_family
+
+    distant_family
+
+    controlling_family
+
+    competitive_family
+
+    complicated_family
+
+    broken_family
+
+
+
+############################################################
+##################### ROMANCE ENGINE #######################
+############################################################
+
+
+romance_simulation:
+
+  principle:
+
+    Romance develops naturally.
+
+    Attraction does not equal compatibility.
+
+    Relationships require effort.
+
+
+
+  compatibility_factors:
+
+    personality
+
+    values
+
+    lifestyle
+
+    goals
+
+    communication
+
+    attraction
+
+    timing
+
+    maturity
+
+
+  relationship_stages:
+
+    stranger
+
+    acquaintance
+
+    interest
+
+    dating
+
+    exclusive_relationship
+
+    long_term_partner
+
+    marriage
+
+    separation
+
+    divorce
+
+
+
+  realistic_conflicts:
+
+    distance
+
+    money
+
+    career
+
+    family_pressure
+
+    communication_failure
+
+    jealousy
+
+    incompatible_goals
+
+    personal_growth
+
+
+
+############################################################
+##################### FRIENDSHIP ENGINE ####################
+############################################################
+
+
+friendship_system:
+
+  friendships develop through:
+
+    shared_time
+
+    trust
+
+    mutual_help
+
+    shared_interest
+
+    life_stage
+
+
+  friendships may:
+
+    deepen
+
+    remain casual
+
+    fade
+
+    end through conflict
+
+    reconnect years later
+
+
+
+############################################################
+##################### WORKPLACE ENGINE #####################
+############################################################
+
+
+workplace_simulation:
+
+  organizations contain:
+
+    hierarchy
+
+    culture
+
+    politics
+
+    incentives
+
+    communication_patterns
+
+
+  workplace_relationships:
+
+    manager
+
+    coworker
+
+    mentor
+
+    competitor
+
+    subordinate
+
+
+  workplace_events:
+
+    promotions
+
+    layoffs
+
+    conflicts
+
+    restructuring
+
+    office friendships
+
+    office rumors
+
+
+
+############################################################
+##################### SOCIAL STATUS ENGINE #################
+############################################################
+
+
+social_status:
+
+  status is contextual.
+
+  A person can be:
+
+    respected professionally
+
+    unknown socially
+
+    famous online
+
+    unpopular locally
+
+
+  reputation_categories:
+
+    workplace
+
+    neighborhood
+
+    professional_field
+
+    online
+
+    family
+
+    community
+
+
+
+############################################################
+##################### NETWORKING ENGINE ####################
+############################################################
+
+
+networking:
+
+  relationships create opportunities.
+
+  Network types:
+
+    family_connections
+
+    professional_connections
+
+    academic_connections
+
+    friendship_connections
+
+    online_connections
+
+
+  opportunities may emerge from:
+
+    recommendations
+
+    introductions
+
+    reputation
+
+    previous cooperation
+
+
+
+############################################################
+##################### EDUCATION ENGINE #####################
+############################################################
+
+
+education_simulation:
+
+  schools have:
+
+    teachers
+
+    students
+
+    culture
+
+    reputation
+
+    resources
+
+
+  students experience:
+
+    exams
+
+    friendships
+
+    competition
+
+    failure
+
+    achievements
+
+    career decisions
+
+
+  education affects:
+
+    skills
+
+    opportunities
+
+    social circles
+
+    confidence
+
+
+
+############################################################
+##################### GENERATIONAL ENGINE ##################
+############################################################
+
+
+generation_simulation:
+
+  People age.
+
+  Children grow.
+
+  Teenagers become adults.
+
+  Adults change careers.
+
+  Older generations retire.
+
+  New cultural trends replace old ones.
+
+
+  Track:
+
+    family_lineage
+
+    career_changes
+
+    wealth_transfer
+
+    cultural_change
+
+
+
+############################################################
+##################### CONFLICT ENGINE ######################
+############################################################
+
+
+social_conflict:
+
+  conflicts emerge from:
+
+    misunderstanding
+
+    competing goals
+
+    personality differences
+
+    money
+
+    ideology
+
+    jealousy
+
+    competition
+
+    fear
+
+
+  resolution_methods:
+
+    communication
+
+    compromise
+
+    legal_action
+
+    separation
+
+    forgiveness
+
+    escalation
+
+
+
+############################################################
+##################### CULTURAL ENGINE ######################
+############################################################
+
+
+culture_engine:
+
+  culture affects:
+
+    language
+
+    manners
+
+    humor
+
+    dating
+
+    work_behavior
+
+    family_expectations
+
+    food
+
+    celebrations
+
+    traditions
+
+
+  Never assume:
+
+    all countries behave the same.
+
+    all generations think the same.
+
+    all social classes think the same.
+
+
+
+############################################################
+##################### NPC DECISION ENGINE ##################
+############################################################
+
+
+npc_decision_model:
+
+  NPC decisions consider:
+
+    personality
+
+    current_emotion
+
+    available_information
+
+    financial_position
+
+    relationships
+
+    risk_tolerance
+
+    past_experience
+
+    cultural_background
+
+    personal_goals
+
+
+  NPCs may make:
+
+    logical decisions
+
+    emotional decisions
+
+    mistakes
+
+    impulsive choices
+
+    unexpected choices
+
+
+
+############################################################
+##################### SOCIAL MEMORY ########################
+############################################################
+
+
+social_memory:
+
+  NPCs remember:
+
+    first_impression
+
+    kindness
+
+    disrespect
+
+    promises
+
+    betrayal
+
+    important_events
+
+
+  Memory fades:
+
+    Minor events disappear.
+
+    Major events remain.
