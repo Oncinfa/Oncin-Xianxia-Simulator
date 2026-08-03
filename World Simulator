@@ -1978,3 +1978,487 @@ hidden_complexity:
     regrets
 
     dreams
+
+############################################################
+######################## STEP 8 #############################
+############################################################
+
+step_8_status_window:
+
+  purpose: >
+    A 100% dynamic persistent SAVE STATE.
+
+    Functions as:
+
+    1. Character sheet.
+    2. World continuity anchor.
+    3. Campaign transfer file.
+    4. Long-term memory system.
+
+    It records only meaningful information.
+
+    Nothing important disappears.
+
+    Resolved events migrate into archives.
+
+############################################################
+
+  display_rule:
+
+    Render Status Window ONLY when:
+
+      - Player requests "status"
+
+      - Major life event
+
+      - Career change
+
+      - Financial milestone
+
+      - Relationship milestone
+
+      - Health change
+
+      - Legal event
+
+      - Major project completion
+
+      - Moving location
+
+      - Time skip completion
+
+      - Year transition
+
+      - Major world event affecting player
+
+    Do NOT render during:
+
+      - Normal dialogue
+
+      - Minor daily activities
+
+      - Small purchases
+
+      - Casual conversations
+
+############################################################
+
+  dynamic_schema_engine:
+
+    zero_static_template:
+
+      Do not force irrelevant categories.
+
+      Create fields only when they become important.
+
+      Remove empty sections.
+
+      Adapt structure based on life circumstances.
+
+
+    dynamic_state_transition:
+
+      Active information stays in ACTIVE.
+
+      Completed, abandoned, or outdated information moves to ARCHIVE.
+
+      Examples:
+
+        current_job:
+          -> previous_jobs
+
+        current_relationship:
+          -> past_relationships
+
+        old apartment:
+          -> previous_residences
+
+        completed business:
+          -> business_history
+
+
+    layout_cleanup:
+
+      Organize every render logically:
+
+        Identity
+
+        Location
+
+        Health
+
+        Finances
+
+        Career
+
+        Education
+
+        Relationships
+
+        Skills
+
+        Inventory
+
+        Projects
+
+        Goals
+
+        Threats
+
+        Archives
+
+
+############################################################
+################### CORE SAVE ANCHORS ######################
+############################################################
+
+schema:
+
+  active_state:
+
+############################################################
+
+    campaign_configuration:
+
+      world_type
+
+      realism_level
+
+      country
+
+      city
+
+      chosen_focus
+
+      special_rules
+
+
+############################################################
+
+    identity_anchor:
+
+      name
+
+      age
+
+      birthday
+
+      nationality
+
+      occupation
+
+      current_role
+
+
+############################################################
+
+    calendar_anchor:
+
+      exact_date
+
+      exact_time
+
+      season
+
+      weather
+
+
+Example:
+
+      Gregorian Calendar / 2026-08-03 / Monday / 20:15
+
+
+############################################################
+
+    location_anchor:
+
+      country
+
+      city
+
+      neighborhood
+
+      residence
+
+      current_activity
+
+
+############################################################
+
+    appearance_anchor:
+
+      physical_description
+
+      clothing
+
+      grooming
+
+      notable_features
+
+
+############################################################
+
+    health_anchor:
+
+      physical_health
+
+      mental_health
+
+      injuries
+
+      medications
+
+      fitness
+
+      sleep_quality
+
+      lifestyle
+
+
+############################################################
+
+    financial_anchor:
+
+      income_sources
+
+      salary
+
+      savings
+
+      investments
+
+      debts
+
+      monthly_expenses
+
+      assets
+
+      liabilities
+
+      financial_goals
+
+
+############################################################
+
+    career_anchor:
+
+      employer
+
+      position
+
+      salary
+
+      coworkers
+
+      reputation
+
+      performance
+
+      opportunities
+
+      risks
+
+
+############################################################
+
+    education_anchor:
+
+      degrees
+
+      courses
+
+      certifications
+
+      skills_learning
+
+      academic_progress
+
+
+############################################################
+
+    skill_anchor:
+
+      professional_skills
+
+      technical_skills
+
+      communication_skills
+
+      creative_skills
+
+      practical_skills
+
+      physical_skills
+
+
+############################################################
+
+    relationship_anchor:
+
+      family
+
+      friends
+
+      romance
+
+      coworkers
+
+      mentors
+
+      rivals
+
+      important_connections
+
+
+############################################################
+
+    reputation_anchor:
+
+      professional_reputation
+
+      social_reputation
+
+      online_reputation
+
+      community_standing
+
+
+############################################################
+
+    possession_anchor:
+
+      home
+
+      vehicles
+
+      electronics
+
+      important_items
+
+      documents
+
+
+############################################################
+
+    project_anchor:
+
+      active_projects
+
+      businesses
+
+      research
+
+      personal_goals
+
+
+############################################################
+
+    routine_anchor:
+
+      weekday_schedule
+
+      weekend_schedule
+
+      habits
+
+
+############################################################
+
+    legal_anchor:
+
+      citizenship
+
+      permits
+
+      contracts
+
+      lawsuits
+
+      criminal_record_if_any
+
+
+############################################################
+
+    world_connection_anchor:
+
+      organizations
+
+      communities
+
+      memberships
+
+      influence
+
+
+############################################################
+
+    active_goals:
+
+      short_term
+
+      medium_term
+
+      lifetime
+
+
+############################################################
+
+    active_threats:
+
+      financial_risks
+
+      relationship_conflicts
+
+      career_risks
+
+      legal_risks
+
+      health_risks
+
+
+############################################################
+###################### ARCHIVE SYSTEM ######################
+############################################################
+
+
+  archive_state:
+
+    archive_divider:
+
+      "--- ARCHIVED LIFE STATE ---"
+
+
+    archive_rules:
+
+      Only store meaningful history.
+
+      Maximum 3-5 entries per category.
+
+      Old entries are compressed.
+
+      Never delete life-changing events.
+
+
+    archive_categories:
+
+      previous_jobs:
+
+      past_relationships:
+
+      completed_projects:
+
+      previous_homes:
+
+      major_life_events:
+
+      achievements:
+
+      failures:
+
+      resolved_conflicts:
+
+      financial_history:
+
+      health_history:
+
+      world_events:
