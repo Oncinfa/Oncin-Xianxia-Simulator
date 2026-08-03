@@ -2462,3 +2462,724 @@ Example:
       health_history:
 
       world_events:
+
+id="9j5fca"
+
+############################################################
+################# WORLD SIMULATION ENGINE ##################
+############################################################
+
+world_simulation_engine:
+
+  purpose: >
+    Maintain a continuously evolving world independent of the player.
+
+    The simulation should create believable consequences,
+    background events, opportunities, and conflicts.
+
+    The world continues moving during:
+
+      - sleep
+
+      - work
+
+      - travel
+
+      - education
+
+      - time skips
+
+      - periods where the player is inactive
+
+
+
+############################################################
+##################### NPC SIMULATION #######################
+############################################################
+
+
+npc_engine:
+
+  principle: >
+    Every important NPC is a simulated individual, not a quest giver.
+
+  npc_profile:
+
+    identity:
+
+      name
+
+      age
+
+      occupation
+
+      location
+
+
+    personality:
+
+      values
+
+      beliefs
+
+      temperament
+
+      communication_style
+
+      fears
+
+      ambitions
+
+
+    life:
+
+      schedule
+
+      income
+
+      expenses
+
+      relationships
+
+      health
+
+      responsibilities
+
+
+    knowledge:
+
+      personal_experience
+
+      rumors_known
+
+      information_sources
+
+      misconceptions
+
+
+    motivation:
+
+      short_term_goals
+
+      long_term_goals
+
+      hidden_desires
+
+
+    memory:
+
+      remembers:
+
+        promises
+
+        favors
+
+        insults
+
+        kindness
+
+        betrayal
+
+        important conversations
+
+        financial interactions
+
+        romantic history
+
+
+
+############################################################
+################ NPC AUTONOMY SYSTEM #######################
+############################################################
+
+
+npc_autonomy:
+
+  NPCs may independently:
+
+    - change jobs
+
+    - move houses
+
+    - start relationships
+
+    - end relationships
+
+    - have children
+
+    - become ill
+
+    - start businesses
+
+    - fail businesses
+
+    - learn skills
+
+    - retire
+
+    - travel
+
+    - commit crimes
+
+    - become victims of crimes
+
+    - change opinions
+
+    - develop new goals
+
+
+
+############################################################
+################### SOCIAL NETWORK #########################
+############################################################
+
+
+social_simulation:
+
+  relationships are dynamic.
+
+  relationship_strength:
+
+    stranger
+
+    acquaintance
+
+    friend
+
+    close_friend
+
+    best_friend
+
+    romantic_interest
+
+    partner
+
+    family
+
+    rival
+
+    enemy
+
+
+  relationship_changes:
+
+    increase through:
+
+      trust
+
+      shared experiences
+
+      help
+
+      honesty
+
+      time
+
+
+    decrease through:
+
+      betrayal
+
+      neglect
+
+      conflict
+
+      misunderstanding
+
+      distance
+
+
+
+############################################################
+##################### ECONOMIC ENGINE ######################
+############################################################
+
+
+economy_engine:
+
+  simulate:
+
+    inflation
+
+    wages
+
+    employment
+
+    interest_rates
+
+    consumer_behavior
+
+    investment
+
+    housing
+
+    commodities
+
+    exchange_rates
+
+    business_cycles
+
+
+
+  labor_market:
+
+    companies:
+
+      hire
+
+      fire
+
+      promote
+
+      restructure
+
+      outsource
+
+
+    workers:
+
+      gain_experience
+
+      change_jobs
+
+      negotiate_salary
+
+      lose_jobs
+
+      retire
+
+
+
+############################################################
+##################### BUSINESS ENGINE ######################
+############################################################
+
+
+business_simulation:
+
+  every business tracks:
+
+    company_name
+
+    industry
+
+    employees
+
+    revenue
+
+    expenses
+
+    competitors
+
+    reputation
+
+    customers
+
+    strategy
+
+
+  businesses may:
+
+    launch_products
+
+    expand
+
+    fail
+
+    merge
+
+    acquire_companies
+
+    downsize
+
+    change_management
+
+    innovate
+
+
+
+############################################################
+##################### HOUSING ENGINE #######################
+############################################################
+
+
+housing_market:
+
+  factors:
+
+    location
+
+    demand
+
+    supply
+
+    economy
+
+    infrastructure
+
+    crime
+
+    schools
+
+    transportation
+
+
+  changes:
+
+    rent increases
+
+    housing bubbles
+
+    construction
+
+    neighborhood decline
+
+    urban development
+
+
+
+############################################################
+##################### GOVERNMENT ENGINE ####################
+############################################################
+
+
+government_simulation:
+
+  governments have:
+
+    leaders
+
+    agencies
+
+    budgets
+
+    policies
+
+    political interests
+
+    public approval
+
+
+  events:
+
+    elections
+
+    legislation
+
+    scandals
+
+    reforms
+
+    protests
+
+    diplomatic events
+
+    policy changes
+
+
+
+############################################################
+##################### MEDIA ENGINE #########################
+############################################################
+
+
+media_simulation:
+
+  information spreads through:
+
+    television
+
+    newspapers
+
+    websites
+
+    podcasts
+
+    social media
+
+    word_of_mouth
+
+
+  information_quality:
+
+    accurate
+
+    incomplete
+
+    biased
+
+    misleading
+
+    false
+
+
+  viral_events:
+
+    A random event may become widespread depending on:
+
+      emotional impact
+
+      timing
+
+      audience
+
+      platform
+
+      influencers
+
+
+
+############################################################
+##################### TECHNOLOGY ENGINE ####################
+############################################################
+
+
+technology_simulation:
+
+  track:
+
+    AI development
+
+    smartphones
+
+    robotics
+
+    medicine
+
+    transportation
+
+    energy
+
+    cybersecurity
+
+    scientific discoveries
+
+
+  technology_changes:
+
+    create_new_jobs
+
+    destroy_old_jobs
+
+    change_business_models
+
+    change daily life
+
+
+
+############################################################
+##################### CRIME ENGINE #########################
+############################################################
+
+
+crime_simulation:
+
+  crime exists realistically.
+
+  factors:
+
+    poverty
+
+    opportunity
+
+    social environment
+
+    enforcement
+
+    personal psychology
+
+
+  crimes:
+
+    theft
+
+    fraud
+
+    cybercrime
+
+    organized crime
+
+    corruption
+
+    violence
+
+
+  consequences:
+
+    investigation
+
+    prosecution
+
+    reputation damage
+
+    imprisonment
+
+    financial loss
+
+
+
+############################################################
+##################### WEATHER ENGINE #######################
+############################################################
+
+
+environment_engine:
+
+  track:
+
+    temperature
+
+    rain
+
+    storms
+
+    seasons
+
+    disasters
+
+    climate patterns
+
+
+  weather affects:
+
+    transportation
+
+    agriculture
+
+    business
+
+    health
+
+    events
+
+    mood
+
+
+
+############################################################
+##################### WORLD EVENTS #########################
+############################################################
+
+
+background_events:
+
+  while_player_is_busy:
+
+    generate:
+
+      local_news
+
+      company_changes
+
+      political_events
+
+      economic_changes
+
+      relationship_changes
+
+      technology_updates
+
+      cultural_events
+
+
+  probability_scale:
+
+    minor:
+
+      affects few people
+
+
+    moderate:
+
+      affects city/community
+
+
+    major:
+
+      affects country
+
+
+    global:
+
+      affects humanity
+
+
+
+############################################################
+##################### INFORMATION FLOW #####################
+############################################################
+
+
+information_isolation:
+
+  NPCs only know:
+
+    - things they personally experienced
+
+    - things they heard
+
+    - things publicly available
+
+    - things their profession gives access to
+
+
+  NPCs do NOT know:
+
+    - player's private thoughts
+
+    - hidden intentions
+
+    - private finances
+
+    - unseen actions
+
+    - secret conversations
+
+
+  rumors:
+
+    travel slowly.
+
+    become distorted.
+
+    depend on social networks.
+
+
+
+############################################################
+##################### TIME SKIP SYSTEM #####################
+############################################################
+
+
+background_progression:
+
+  During time skips:
+
+    simulate:
+
+      NPC lives
+
+      economy
+
+      organizations
+
+      relationships
+
+      world events
+
+
+  Important events interrupt:
+
+    - death
+
+    - marriage
+
+    - major opportunity
+
+    - bankruptcy
+
+    - legal crisis
+
+    - disaster
+
+    - career-changing event
