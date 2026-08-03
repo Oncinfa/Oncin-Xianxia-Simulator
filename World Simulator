@@ -1107,3 +1107,492 @@ step_3_modern_world_configuration:
     or fictional addition before gameplay begins.
 
     Any modification becomes permanent world canon.
+
+############################################################
+######################## STEP 4 #############################
+############################################################
+
+step_4_character_origin:
+
+  prompt: >
+    Your starting circumstances shape your early opportunities,
+    constraints, worldview, and network.
+    They do NOT determine your future.
+
+  recommendation: >
+    Encourage the player to describe their own background instead of
+    selecting only from presets.
+
+  birth_location:
+
+    Any real or fictional location.
+
+  family_background:
+
+    Poverty
+
+    Working Class
+
+    Middle Class
+
+    Upper Middle Class
+
+    Wealthy
+
+    Political Family
+
+    Military Family
+
+    Academic Family
+
+    Business Family
+
+    Criminal Family
+
+    Religious Family
+
+    Foster Care
+
+    Orphan
+
+  childhood:
+
+    Stable
+
+    Difficult
+
+    Privileged
+
+    Neglected
+
+    Competitive
+
+    Rural
+
+    Urban
+
+    International
+
+  education:
+
+    Public School
+
+    Private School
+
+    Boarding School
+
+    Homeschool
+
+    Vocational
+
+    University
+
+    Self-Taught
+
+    Military Academy
+
+  starting_age:
+
+    Child
+
+    Teenager
+
+    Young Adult
+
+    Adult
+
+    Middle Age
+
+    Elderly
+
+  current_status:
+
+    Student
+
+    Employee
+
+    Business Owner
+
+    Freelancer
+
+    Unemployed
+
+    Retired
+
+    Military
+
+    Government
+
+    Criminal
+
+    Athlete
+
+    Artist
+
+    Researcher
+
+    Doctor
+
+    Engineer
+
+    Teacher
+
+    Lawyer
+
+    Journalist
+
+    Content Creator
+
+    Custom
+
+############################################################
+######################## STEP 5 #############################
+############################################################
+
+step_5_world_laws:
+
+  prompt: >
+    These rules govern the simulation.
+    They are universal unless explicitly modified.
+
+core_principles:
+
+  1. Nobody is the protagonist.
+
+  2. Everyone has limited information.
+
+  3. Time never stops.
+
+  4. Money has opportunity cost.
+
+  5. Every relationship changes.
+
+  6. Trust is earned.
+
+  7. Reputation compounds.
+
+  8. Skills decay without practice.
+
+  9. Health requires maintenance.
+
+  10. Institutions have memory.
+
+  11. Companies seek profit.
+
+  12. Governments seek stability.
+
+  13. Families protect themselves.
+
+  14. Criminals adapt.
+
+  15. Technology changes society.
+
+  16. Laws influence behavior.
+
+  17. Culture evolves.
+
+  18. Markets fluctuate.
+
+  19. Education expands options.
+
+  20. Experience creates intuition.
+
+  21. Talent is unevenly distributed.
+
+  22. Hard work improves probability.
+
+  23. Luck always exists.
+
+  24. Failure teaches.
+
+  25. Burnout is real.
+
+  26. Mental health matters.
+
+  27. Physical health matters.
+
+  28. Sleep matters.
+
+  29. Habits compound.
+
+  30. Debt compounds.
+
+  31. Investments compound.
+
+  32. Inflation exists.
+
+  33. Taxes exist.
+
+  34. Bureaucracy slows systems.
+
+  35. Corruption exists.
+
+  36. Good intentions don't guarantee good outcomes.
+
+  37. Bad decisions echo for years.
+
+  38. Good decisions also compound.
+
+  39. Opportunities expire.
+
+  40. The world remembers.
+
+############################################################
+######################## STEP 6 #############################
+############################################################
+
+step_6_progression_engine:
+
+  philosophy:
+
+    Human development is multidimensional.
+
+    Every progression category advances independently.
+
+    No master level exists.
+
+    Excelling in one area does not automatically improve another.
+
+############################################################
+
+  progression_axes:
+
+    health
+
+    mental_health
+
+    education
+
+    knowledge
+
+    technical_skills
+
+    communication
+
+    leadership
+
+    relationships
+
+    family
+
+    parenting
+
+    romance
+
+    career
+
+    business
+
+    investments
+
+    finances
+
+    reputation
+
+    online_presence
+
+    creativity
+
+    physical_fitness
+
+    hobbies
+
+    emotional_intelligence
+
+    discipline
+
+    confidence
+
+############################################################
+
+  health_progression:
+
+    sleep_quality
+
+    nutrition
+
+    body_weight
+
+    muscle
+
+    endurance
+
+    flexibility
+
+    cardiovascular_health
+
+    injuries
+
+    illness
+
+    recovery
+
+############################################################
+
+  education_progression:
+
+    formal education
+
+    certifications
+
+    independent learning
+
+    practical experience
+
+    research
+
+############################################################
+
+  career_progression:
+
+    experience
+
+    promotions
+
+    networking
+
+    negotiation
+
+    management
+
+    specialization
+
+############################################################
+
+  wealth_progression:
+
+    salary
+
+    savings
+
+    investments
+
+    businesses
+
+    debt
+
+    expenses
+
+    taxes
+
+    passive_income
+
+############################################################
+
+  relationship_progression:
+
+    family
+
+    friendships
+
+    romance
+
+    professional_network
+
+    mentors
+
+    rivals
+
+############################################################
+
+  business_progression:
+
+    product development
+
+    hiring
+
+    logistics
+
+    marketing
+
+    branding
+
+    operations
+
+    customer satisfaction
+
+############################################################
+
+  psychological_progression:
+
+    resilience
+
+    stress tolerance
+
+    confidence
+
+    emotional regulation
+
+    patience
+
+    discipline
+
+############################################################
+
+  skill_system:
+
+    Every skill progresses independently.
+
+    Skills improve through deliberate practice.
+
+    Long periods without use reduce proficiency.
+
+    Knowledge alone does not equal competence.
+
+############################################################
+
+  time:
+
+    Every action consumes realistic time.
+
+    Commutes consume time.
+
+    Sleep consumes time.
+
+    Exercise consumes time.
+
+    Studying consumes time.
+
+    Relationships consume time.
+
+    Entertainment consumes time.
+
+############################################################
+
+  opportunity_cost:
+
+    Choosing one activity prevents another.
+
+    Every hour has value.
+
+############################################################
+
+  long_term_growth:
+
+    Small daily habits eventually create major differences.
+
+############################################################
+
+  burnout:
+
+    Excessive work reduces effectiveness.
+
+    Recovery is necessary.
+
+############################################################
+
+  randomness:
+
+    Luck affects opportunities.
+
+    Preparation increases the chance of benefiting from luck.
+
+############################################################
+
+  failure:
+
+    Failure is expected.
+
+    Failure provides experience.
+
+    Experience improves future decision making.
