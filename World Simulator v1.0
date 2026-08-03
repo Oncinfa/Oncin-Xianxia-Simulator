@@ -340,3 +340,492 @@ modern_earth_simulator:
 
       - >
         "Describe your character or let the simulator create one."
+
+id="q8m3vz"
+
+############################################################
+# CHARACTER CREATION SYSTEM
+############################################################
+
+character_creation:
+
+
+  purpose: >
+    Create a realistic human being with a unique background,
+    personality, circumstances, strengths, weaknesses,
+    and starting position in society.
+
+    The character should feel like someone who existed before
+    the simulation began.
+
+
+############################################################
+# CREATION METHOD
+############################################################
+
+  approach:
+
+    free_creation: >
+      Allow the user to describe any character freely.
+
+    guided_creation: >
+      If the user prefers guidance, generate step-by-step.
+
+    random_generation: >
+      If the user says "generate", create a complete realistic
+      character with balanced advantages and disadvantages.
+
+
+############################################################
+# BASIC IDENTITY
+############################################################
+
+  identity:
+
+    required:
+
+      name
+
+      age
+
+      birthday
+
+      gender
+
+      nationality
+
+      country
+
+      city
+
+      language
+
+      current_life_stage
+
+
+    life_stage_examples:
+
+      - childhood
+      - teenager
+      - university_student
+      - first_job
+      - young_professional
+      - established_career
+      - retirement
+
+
+############################################################
+# APPEARANCE
+############################################################
+
+  appearance:
+
+    generate:
+
+      height
+
+      body_type
+
+      facial_features
+
+      hair
+
+      skin
+
+      clothing_style
+
+      grooming_habits
+
+
+    rule: >
+      Appearance affects first impressions,
+      confidence, and social interactions,
+      but does not determine worth or destiny.
+
+
+############################################################
+# PERSONALITY SYSTEM
+############################################################
+
+  personality:
+
+
+    core_traits:
+
+      strengths:
+
+        examples:
+
+          - disciplined
+          - patient
+          - charismatic
+          - analytical
+          - creative
+          - adaptable
+
+
+      weaknesses:
+
+        examples:
+
+          - impulsive
+          - insecure
+          - stubborn
+          - avoidant
+          - impatient
+          - overly cautious
+
+
+    values:
+
+      determine:
+
+        what_character_prioritizes
+
+        what_conflicts_with_character
+
+        what_motivates_decisions
+
+
+    temperament:
+
+      describe:
+
+        emotional_response
+
+        communication_style
+
+        stress_behavior
+
+        conflict_behavior
+
+
+
+############################################################
+# PERSONAL HISTORY
+############################################################
+
+  background:
+
+
+    childhood:
+
+      include:
+
+        family_environment
+
+        childhood_experiences
+
+        important_memories
+
+
+    education:
+
+      include:
+
+        schools
+
+        academic_strengths
+
+        academic_failures
+
+        important_teachers_or_friends
+
+
+    previous_experience:
+
+      include:
+
+        jobs
+
+        hobbies
+
+        achievements
+
+        failures
+
+        turning_points
+
+
+
+############################################################
+# FAMILY SYSTEM
+############################################################
+
+  family:
+
+
+    generate:
+
+      parents
+
+      siblings
+
+      relatives
+
+
+    each important_family_member:
+
+      track:
+
+        relationship_quality
+
+        personality
+
+        occupation
+
+        life_situation
+
+        expectations
+
+
+    rule: >
+      Family relationships are not automatically positive
+      or negative.
+
+      They can be supportive, complicated, distant,
+      loving, conflicted, or changing.
+
+
+
+############################################################
+# HEALTH PROFILE
+############################################################
+
+  health:
+
+
+    track:
+
+      physical_condition
+
+      fitness_level
+
+      injuries
+
+      chronic_conditions_if_any
+
+      habits
+
+      sleep_quality
+
+      mental_wellbeing
+
+
+    rule: >
+      Health changes gradually through lifestyle,
+      environment, genetics, and circumstances.
+
+
+
+############################################################
+# EDUCATION AND SKILLS
+############################################################
+
+  abilities:
+
+
+    education:
+
+      degrees
+
+      certifications
+
+      unfinished_studies
+
+
+    skills:
+
+      professional:
+
+      technical:
+
+      social:
+
+      creative:
+
+      practical:
+
+      physical:
+
+
+    skill_rating:
+
+      novice
+
+      basic
+
+      competent
+
+      advanced
+
+      expert
+
+
+    rule: >
+      Skills are specific.
+
+      Being excellent in one field does not make someone
+      automatically capable in unrelated fields.
+
+
+
+############################################################
+# FINANCIAL STARTING POINT
+############################################################
+
+  financial_background:
+
+
+    track:
+
+      family_economic_background
+
+      current_income
+
+      savings
+
+      debt
+
+      assets
+
+      financial_pressure
+
+
+    starting_conditions:
+
+      may include:
+
+        - financial advantage
+        - ordinary stability
+        - financial struggle
+
+
+    rule: >
+      Starting wealth affects available options,
+      but does not determine final outcome.
+
+
+
+############################################################
+# SOCIAL NETWORK
+############################################################
+
+  starting_connections:
+
+
+    include:
+
+      friends
+
+      coworkers
+
+      classmates
+
+      mentors
+
+      acquaintances
+
+
+    important_connections:
+
+      each has:
+
+        name
+
+        age
+
+        relationship
+
+        personality
+
+        current_life
+
+
+    rule: >
+      Relationships are opportunities and responsibilities,
+      not inventory items.
+
+
+
+############################################################
+# PERSONAL GOALS
+############################################################
+
+  goals:
+
+
+    short_term:
+
+      months_to_1_year
+
+
+    medium_term:
+
+      one_to_five_years
+
+
+    long_term:
+
+      life_direction
+
+
+    hidden_conflicts:
+
+      >
+      Characters may have goals that conflict.
+
+      Example:
+
+      Wanting career success while wanting more family time.
+
+
+
+############################################################
+# STARTING PROBLEMS
+############################################################
+
+  initial_challenges:
+
+
+    create:
+
+      personal_challenges
+
+      financial_challenges
+
+      relationship_challenges
+
+      career_challenges
+
+
+    rule: >
+      A believable character begins with unfinished problems,
+      not a perfect life.
+
+
+
+############################################################
+# CHARACTER FINALIZATION
+############################################################
+
+  confirmation:
+
+
+    before_starting_simulation:
+
+      display:
+
+        character_summary
+
+        starting_location
+
+        current_date
+
+        current_life_situation
+
+
+      ask:
+
+        >
+        "Begin simulation?"
