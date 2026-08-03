@@ -3904,3 +3904,705 @@ social_memory:
     Minor events disappear.
 
     Major events remain.
+
+id="7nq4pz"
+
+############################################################
+######## ECONOMY, CAREER & WEALTH SIMULATION ENGINE #########
+############################################################
+
+economic_engine:
+
+  purpose: >
+    Simulate realistic financial systems, careers, businesses,
+    markets, and economic consequences.
+
+  principle: >
+    Money is not a score.
+
+    Money represents access, security, opportunity,
+    influence, and responsibility.
+
+    Wealth creates options but also creates new problems.
+
+
+
+############################################################
+##################### PERSONAL FINANCE #####################
+############################################################
+
+
+personal_finance:
+
+  track:
+
+    income
+
+    expenses
+
+    savings
+
+    investments
+
+    debts
+
+    assets
+
+    liabilities
+
+    taxes
+
+    insurance
+
+
+  income_sources:
+
+    salary
+
+    hourly_wage
+
+    freelance
+
+    business_profit
+
+    investment_income
+
+    royalties
+
+    rental_income
+
+    inheritance
+
+    government_support
+
+
+
+  expenses:
+
+    housing
+
+    food
+
+    transportation
+
+    healthcare
+
+    education
+
+    entertainment
+
+    subscriptions
+
+    debt_payment
+
+    family_support
+
+
+
+############################################################
+##################### FINANCIAL STATUS #####################
+############################################################
+
+
+financial_position:
+
+  categories:
+
+    financially_distressed:
+
+      unable_to_cover_basic_needs
+
+
+    struggling:
+
+      survives but little flexibility
+
+
+    stable:
+
+      comfortable daily life
+
+
+    comfortable:
+
+      savings and investments growing
+
+
+    wealthy:
+
+      significant assets
+
+
+    affluent:
+
+      high financial freedom
+
+
+    ultra_wealthy:
+
+      major economic influence
+
+
+
+  IMPORTANT:
+
+    Wealth does not equal happiness.
+
+    Poverty does not equal failure.
+
+    Financial situations can change.
+
+
+
+############################################################
+##################### CAREER ENGINE ########################
+############################################################
+
+
+career_simulation:
+
+  every profession has:
+
+    entry_requirements
+
+    skill_requirements
+
+    salary_range
+
+    career_path
+
+    competition
+
+    burnout_risk
+
+    social_status
+
+    working_conditions
+
+
+
+  career_progression:
+
+    beginner
+
+    junior
+
+    competent
+
+    experienced
+
+    senior
+
+    specialist
+
+    manager
+
+    executive
+
+    industry_expert
+
+
+
+  advancement_requires:
+
+    skill
+
+    experience
+
+    reputation
+
+    networking
+
+    opportunity
+
+    timing
+
+
+
+  promotions_are_not_guaranteed.
+
+
+
+############################################################
+##################### JOB MARKET ###########################
+############################################################
+
+
+labor_market:
+
+  companies respond to:
+
+    economy
+
+    technology
+
+    competition
+
+    consumer_demand
+
+
+  events:
+
+    hiring
+
+    layoffs
+
+    salary_changes
+
+    remote_work
+
+    outsourcing
+
+    automation
+
+    industry_decline
+
+
+
+  workers respond:
+
+    change_jobs
+
+    learn_skills
+
+    negotiate
+
+    relocate
+
+    start_business
+
+
+
+############################################################
+##################### SKILL ECONOMY ########################
+############################################################
+
+
+skill_market:
+
+  Skills influence:
+
+    income
+
+    opportunities
+
+    reputation
+
+    career_options
+
+
+  skill_categories:
+
+    technical
+
+    communication
+
+    management
+
+    creative
+
+    sales
+
+    leadership
+
+    research
+
+    physical
+
+    trade_skills
+
+
+
+  skill_growth:
+
+    requires:
+
+      practice
+
+      feedback
+
+      application
+
+      experience
+
+
+
+  skill_decay:
+
+    occurs through:
+
+      neglect
+
+      outdated knowledge
+
+      changing technology
+
+
+
+############################################################
+##################### BUSINESS ENGINE ######################
+############################################################
+
+
+business_system:
+
+  companies have:
+
+    founders
+
+    employees
+
+    investors
+
+    customers
+
+    competitors
+
+    suppliers
+
+    reputation
+
+
+  company_metrics:
+
+    revenue
+
+    profit
+
+    expenses
+
+    debt
+
+    market_share
+
+    customer_loyalty
+
+    employee_satisfaction
+
+
+
+############################################################
+##################### ENTREPRENEURSHIP #####################
+############################################################
+
+
+entrepreneurship:
+
+  starting_business_requires:
+
+    idea
+
+    market_need
+
+    capital
+
+    execution
+
+    customers
+
+    operations
+
+
+  business_stages:
+
+    idea
+
+    validation
+
+    startup
+
+    growth
+
+    expansion
+
+    maturity
+
+    decline
+
+
+
+  businesses_can:
+
+    succeed
+
+    stagnate
+
+    pivot
+
+    fail
+
+    get acquired
+
+    become industry leaders
+
+
+
+############################################################
+##################### INVESTMENT ENGINE ####################
+############################################################
+
+
+investment_system:
+
+  assets:
+
+    stocks
+
+    bonds
+
+    real_estate
+
+    businesses
+
+    commodities
+
+    funds
+
+    cryptocurrency
+
+
+  investment_principles:
+
+    risk_exists
+
+    returns_are_uncertain
+
+    markets_change
+
+    information_is_unequal
+
+
+  investors_consider:
+
+    time_horizon
+
+    risk_tolerance
+
+    knowledge
+
+    goals
+
+    economic_conditions
+
+
+
+############################################################
+##################### REAL ESTATE ##########################
+############################################################
+
+
+real_estate_engine:
+
+  property_values_depend_on:
+
+    location
+
+    infrastructure
+
+    economy
+
+    population_growth
+
+    interest_rates
+
+    development
+
+
+  property_types:
+
+    apartment
+
+    house
+
+    land
+
+    commercial_property
+
+    industrial_property
+
+
+
+  ownership:
+
+    renting
+
+    mortgage
+
+    ownership
+
+    investment_property
+
+
+
+############################################################
+##################### DEBT SYSTEM ##########################
+############################################################
+
+
+debt_engine:
+
+  debt_types:
+
+    student_loans
+
+    mortgages
+
+    personal_loans
+
+    credit_cards
+
+    business_loans
+
+
+  debt_effects:
+
+    reduces_future_options
+
+    creates_payment_pressure
+
+    affects reputation
+
+    affects stress
+
+
+
+  debt_can_be:
+
+    manageable
+
+    dangerous
+
+    overwhelming
+
+
+
+############################################################
+##################### TAX SYSTEM ###########################
+############################################################
+
+
+taxation:
+
+  simulate:
+
+    income_tax
+
+    sales_tax
+
+    property_tax
+
+    business_tax
+
+
+  taxes affect:
+
+    disposable_income
+
+    business decisions
+
+    government services
+
+
+
+############################################################
+##################### ECONOMIC CYCLES ######################
+############################################################
+
+
+macro_economy:
+
+  simulate:
+
+    growth
+
+    recession
+
+    inflation
+
+    deflation
+
+    unemployment
+
+    market_bubbles
+
+    financial_crisis
+
+
+
+  economic_events:
+
+    affect:
+
+      companies
+
+      workers
+
+      investors
+
+      consumers
+
+      governments
+
+
+
+############################################################
+##################### BUSINESS NETWORK #####################
+############################################################
+
+
+professional_network:
+
+  connections provide:
+
+    information
+
+    introductions
+
+    opportunities
+
+    partnerships
+
+    recommendations
+
+
+  reputation influences:
+
+    who responds
+
+    who trusts
+
+    who cooperates
+
+
+
+############################################################
+##################### ECONOMIC REALISM RULES ###############
+############################################################
+
+
+economic_rules:
+
+  1. Wealth requires value creation.
+
+  2. High income usually requires rare skills,
+     responsibility, ownership, or leverage.
+
+  3. Money grows slowly for most people.
+
+  4. Sudden wealth attracts attention.
+
+  5. Businesses have failure rates.
+
+  6. Markets punish overconfidence.
+
+  7. Debt creates pressure.
+
+  8. Location affects opportunity.
+
+  9. Networking matters.
+
+  10. Luck affects timing.
+
+  11. Reputation affects economic outcomes.
+
+  12. Inflation changes purchasing power.
