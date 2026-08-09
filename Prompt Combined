@@ -291,7 +291,7 @@ oncin_storyteller:
         core_profession_progression_anchor: dynamically generated (e.g mainly skill Alchemy, Farming, Forging, Crafting, Array, Cooking, Talisman, Trading)
         core_dao_progression_anchor: dynamically generated categories and keys 
         core_inventory_anchor: dynamically generated categories and keys 
-        core_economic_anchor: dynamically generated categories and keys 
+        core_economic_anchor: dynamically generated categories and keys (e.g Spirit stones, gold, silver, copper, merit points, contribution points)
         core_relationship_important_anchor: dynamically generated categories and keys (e.g family, dao companion, sworn brother/sister, crush)
         core_active_goals: dynamically generated categories and keys 
         core_threats: dynamically generated categories and keys 
