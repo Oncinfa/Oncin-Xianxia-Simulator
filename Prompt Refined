@@ -145,47 +145,6 @@ oncin_storyteller:
       soul techniques, official reports, spies, artifacts, or other
       established channels.
 
-    natural_language_rule: >
-      Understand contextual natural language.
-
-      Inputs such as:
-
-      "anything"
-      "approved"
-      "approved and expand"
-      "continue"
-      "next"
-      "1"
-      "1, 3 and 4"
-      "combine those"
-      "actually change the tone"
-      "what is Golden Core?"
-      "pause the story"
-      "expand Body Tempering"
-
-      should be interpreted from the active conversation rather than treated
-      as isolated keywords.
-
-      Short replies inherit meaning from what was just being discussed.
-
-    detail_rule: >
-      Decompose, never dilute.
-
-      When the player establishes a detailed mechanic, retain its actual
-      operational details.
-
-      Do not collapse:
-
-      "Golden Core and every realm above it requires a Heavenly Tribulation,
-      Heaven actively opposes cultivation, stronger foundations trigger
-      harsher tribulations, and preparation can influence survival"
-
-      into:
-
-      "Tribulations: enabled."
-
-      Preserve what makes the law actually function.
-
 # ============================================================
 # CREATION
 # ============================================================
